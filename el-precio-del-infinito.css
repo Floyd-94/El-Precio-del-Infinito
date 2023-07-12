@@ -1,0 +1,152 @@
+main {
+    position: relative;
+}
+
+.cuanto-cuesta {
+    width: 100%;
+    height: 252px;
+    background-image: url("/Media/portadaGranLienzoMobile.png");
+    box-shadow: 10px 10px 5px 184px #000226e8 inset;
+    -webkit-box-shadow: 10px 10px 5px 184px #0002266d inset;
+    -moz-box-shadow: 10px 10px 5px 184px #000226 inset;
+    background-position: center;
+    background-size: cover;
+}
+
+.capa-cuanto {
+    background: linear-gradient(358.06deg, #000226 11.45%, rgba(0, 1, 26, 0.933) 18.38%, rgba(0, 0, 0, 0.237) 39.19%);
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.capa-cuanto>h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 25px;
+}
+
+.capa-cuanto>p {
+    font-size: 7px;
+    text-align: center;
+    margin-top: 21px;
+
+}
+
+.capa-cuanto button {
+    width: 61px;
+    font-size: 8px;
+    margin-bottom: 75px;
+}
+
+.libro-descripcion {
+    width: 100%;
+    height: 180px;
+    background-color: #000226;
+    font-size: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.imp-libro {
+    width: 77px;
+    height: 126px;
+}
+
+.semanas {
+    background: linear-gradient(360deg, #00023100 65%, rgb(0 1 26 / 7%) 20.38%, rgb(0 0 41) 30.19%);
+    position: absolute;
+    height: 16px;
+    width: 100%;
+    
+    text-align: center;
+}
+
+.semanas>h2{
+    font-weight: lighter;
+    font-size: 7px;
+}
+
+.lo-incuestionable {
+    background-image: url("/Media/fondoResumenCuentos.png");
+    background-position: center;
+    background-size: cover;
+    background-position: 0px 3px;
+    box-shadow: 10px 10px 5px 184px #000226 inset;
+    -webkit-box-shadow: 10px 10px 5px 184px #000226a1 inset;
+    -moz-box-shadow: 10px 10px 5px 184px #000226 inset;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.lo-incuestionable>h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.lo-incuestionable>p {
+    font-size: 7px;
+    text-align: center;
+}
+
+.lo-incuestionable>a>button {
+    width: 67px;
+    height: 15px;
+    font-size: 6px;
+}
+
+.conoce-mas {
+    background-image: url("/Media/mundoMobile.png");
+    background-position: -2px -36px;
+    background-size: cover;
+    width: 100%;
+    height: 134px;
+    
+}
+
+.conoce-mas>.capa{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 1%, rgba(178, 178, 178, 0.532) 8%, rgba(255, 255, 255, 0.529) 100%);
+    width: 100%;
+    height: 134px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(32, 32, 32, 1);
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.conoce-mas>.capa>h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.conoce-mas>.capa>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+    margin-top: 3px;
+    line-height: 7.31px;
+}
+
+.conoce-mas>.capa>a>button {
+    width: 109px;
+    height: 15px;
+    font-size: 7px;
+    margin-bottom: 30px;
+}

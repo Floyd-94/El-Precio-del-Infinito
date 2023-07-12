@@ -1,0 +1,70 @@
+.ayuda {
+    background-color: rgba(0, 2, 38, 1);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ayuda>h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.ayuda>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.botones>a>button {
+    width: 61px;
+    font-size: 8px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.p-comprar {
+    background-color: rgba(0, 2, 38, 1);
+    border: 1px solid #1E90FF;
+    color: #1E90FF;
+}
+
+.bancar {
+    height: 210px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bancar>p {
+    font-size: 7px;
+    text-shadow: rgb(0, 0, 0) 0px 0.5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    
+}
+
+.bancar>a>button {
+    width: 61px;
+    font-size: 10px;
+
+}

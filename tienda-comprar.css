@@ -1,0 +1,50 @@
+.ayuda {
+    background-color: rgba(0, 2, 38, 1);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 138px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+}
+
+.ayuda>h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.ayuda>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    text-align: center;
+}
+
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+ 
+}
+
+.botones > a > button {
+    width: 61px;
+    font-size: 8px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.p-bancar {
+    background-color: rgba(0, 2, 38, 1);
+    border: 1px solid #1E90FF;
+    color: #1E90FF;
+}
+
+.pago {
+    height: 210px;
+    background-color: white;
+}

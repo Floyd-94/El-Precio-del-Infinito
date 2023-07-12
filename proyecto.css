@@ -1,0 +1,155 @@
+.entra {
+    width: 100%;
+    height: 200px;
+    background-image: url(/Media/mundoMobile.png);
+    background-position: center;
+    background-size: cover;
+    background-position: 8px 0px;
+    position: relative;
+}
+
+.entra>.capa {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(205, 206, 206, 0.582);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(32, 32, 32, 1);
+    justify-content: center;
+}
+
+.entra>.capa>h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.entra>.capa>p {
+    font-size: 8px;
+    text-align: center;
+    line-height: 9.72px;
+}
+
+.entregado {
+    width: 100%;
+    height: 207px;
+    background-image: url(/Media/fondoResumenCuentos.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.entregado>.capa {
+    width: 100%;
+    height: 207px;
+    background: linear-gradient(180deg, #000008 1%, rgba(0, 2, 38, 0.597) 8%, rgb(0, 2, 38) 100%);
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.entregado>.capa>p {
+    width: 175px;
+    font-size: 7px;
+    line-height: 8.51px;
+}
+
+.serie {
+    width: 100%;
+    height: 378px;
+    background-color: rgba(0, 2, 38, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.serie>h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+    margin-top: 30px;
+
+}
+
+.serie>p {
+    width: 184px;
+    height: 108px;
+    font-size: 7px;
+}
+
+.serie>.flores>img {
+    width: 184px;
+    height: 127px;
+
+}
+
+.proyectos {
+    width: 100%;
+    height: 361px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.786) 1%, rgba(74, 81, 217, 1) 6%, rgba(74, 81, 217, 1) 100%);
+    position: relative;
+}
+
+.proyectos>.capa {
+    width: 100%;
+    height: 361px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.786) 1%, rgba(74, 81, 217, 1) 6%, rgba(74, 81, 217, 0) 100%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.proyectos>.capa>h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+}
+
+.proyectos>.capa>p {
+    font-size: 8px;
+}
+
+.proyectos>.capa>.fechas {
+    width: 254px;
+}
+
+.proyectos>.capa>.fechas>h2 {
+    font-size: 8px;
+
+}
+
+.proyectos>.capa>.fechas>.cinco {
+    height: 58px;
+    background-color: rgba(160, 192, 239, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.proyectos>.capa>.fechas h3 {
+    width: 100%;
+    height: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    background-color: rgba(30, 144, 255, 1);
+    text-align: center;
+    text-justify:distribute;
+}
+
+.proyectos>.capa>.fechas p {
+    width: 238px;
+    height: 33;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bolder;
+
+}

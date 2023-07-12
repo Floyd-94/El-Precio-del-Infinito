@@ -1,0 +1,165 @@
+.comprar {
+    width: 100%;
+    height: 200px;
+    background-image: url("/Media/coverMobile.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 8px 7px 1px rgba(0, 0, 0, 0.793);
+}
+
+.comprar>.capa {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+
+}
+
+.comprar>.capa>h1 {
+    margin-top: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    text-shadow: rgb(11, 182, 255) 0px 1px 4px;
+}
+
+.comprar>.capa>h1>.el-precio-del {
+    font-size: 9.5px;
+    line-height: 12.5px;
+}
+
+.comprar>.capa>h1>.infinito {
+    font-size: 15px;
+    line-height: 19.5px;
+}
+
+.comprar>.capa>a>button {
+    width: 61px;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+.cuentos {
+    width: 100%;
+    height: 193px;
+    background-image: url("/Media/granLienzoMobile.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-position: 0px -7px;
+
+}
+
+.cuentos>.capa {
+    width: 100%;
+    height: 193px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: space-around;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 1%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.529) 100%);
+}
+
+.cuentos>.capa>h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'EB Garamond', serif;
+}
+
+.cuentos>.capa>p {
+    font-size: 8px;
+}
+
+.cuentos>.capa>a>button {
+    width: 106px;
+    font-size: 9px;
+    margin-bottom: 18px;
+}
+
+.lienzo {
+    width: 100%;
+    height: 157px;
+    background-image: url("/Media/mundoMobile.png");
+    background-position: center;
+    background-size: cover;
+    background-position: -5px -35px;
+    position: relative;
+}
+
+.lienzo>.capa {
+    width: 100%;
+    height: 157px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 1%, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0.529) 100%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(32, 32, 32, 1);
+    justify-content: space-around;
+
+}
+
+.lienzo>.capa>h2 {
+    font-size: 14px;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lienzo>.capa>p {
+    font-size: 8px;
+    text-align: center;
+}
+
+.lienzo>.capa>a>button {
+    width: 116px;
+    font-size: 9px;
+    margin-bottom: 10px;
+}
+
+.autor {
+    background-image: url("/Media/jonMobile.png");
+    background-position: 0px -5px;
+    background-size: cover;
+    width: 100%;
+    height: 143px;
+    position: relative;
+
+}
+
+.autor>.capa {
+    width: 100%;
+    height: 143px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0.529) 100%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(32, 32, 32, 1);
+    justify-content: space-around;
+}
+
+.autor>.capa>h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.autor>.capa>p {
+    font-size: 7px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.autor>.capa>a>button {
+    width: 108px;
+    font-size: 9px;
+    margin-bottom: 10px;
+
+}
