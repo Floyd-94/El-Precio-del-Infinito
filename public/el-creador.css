@@ -1,0 +1,66 @@
+main {
+    position: relative;
+}
+
+.presentacion {
+    width: 100%;
+    height: 202px;
+    background-image: url("/public/Media/jonMobile.png");
+    background-position: -1px -12px;
+    background-size: 340px;
+    position: relative;
+}
+
+.presentacion>.capa {
+    width: 100%;
+    height: 202px;
+    background: rgba(250, 250, 250, 0.5);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(32, 32, 32, 1);
+    justify-content: space-evenly;
+}
+
+.presentacion>.capa>h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+    line-height: 14.88px;
+    font-weight: bolder;
+}
+
+.presentacion>.capa>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    font-weight: bolder;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 7.31px;
+    margin-bottom: 20px;
+}
+
+.la-mano {
+    width: 100%;
+    height: 747px;
+    background-color: rgba(0, 2, 38, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.cartas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+
+.carta {
+    width: 120px;
+    height: 190px;
+    background-color: rgba(30, 144, 255, 1);
+    border-radius: 5px;
+
+}

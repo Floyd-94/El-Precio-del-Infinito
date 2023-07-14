@@ -1,7 +1,7 @@
 .entra {
     width: 100%;
     height: 200px;
-    background-image: url(/Media/mundoMobile.png);
+    background-image: url("/public/Media/mundoMobile.png");
     background-position: center;
     background-size: cover;
     background-position: 8px 0px;
@@ -37,7 +37,7 @@
 .entregado {
     width: 100%;
     height: 207px;
-    background-image: url(/Media/fondoResumenCuentos.png);
+    background-image: url("/public/Media/fondoResumenCuentos.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -118,11 +118,16 @@
 
 .proyectos>.capa>.fechas {
     width: 254px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .proyectos>.capa>.fechas>h2 {
     font-size: 8px;
-
+    text-align: center;
+    margin: 5px auto;
+    font-weight: 400;
 }
 
 .proyectos>.capa>.fechas>.cinco {
@@ -131,7 +136,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .proyectos>.capa>.fechas h3 {
@@ -141,7 +145,6 @@
     font-size: 6px;
     background-color: rgba(30, 144, 255, 1);
     text-align: center;
-    text-justify:distribute;
 }
 
 .proyectos>.capa>.fechas p {
@@ -151,5 +154,47 @@
     font-size: 6px;
     color: rgba(0, 0, 0, 1);
     font-weight: bolder;
+}
 
+.ayudar-proyecto {
+    width: 100%;
+    height: 134px;
+    background-image: url("/public/Media/mundoMobile.png");
+    background-position: center;
+    background-size: cover;
+    background-position: 10px -20px;
+    position: relative;
+}
+
+.ayudar-proyecto>.capa {
+    width: 100%;
+    height: 134px;
+    background-color: rgba(205, 206, 206, 0.582);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(32, 32, 32, 1);
+    justify-content: space-evenly;
+}
+
+.ayudar-proyecto>.capa>h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.ayudar-proyecto>.capa>p {
+    font-size: 7px;
+    line-height: 8.5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.ayudar-proyecto>.capa>a>button {
+    width: 83px;
+    height: 15px;
+    font-size: 7px;
 }
