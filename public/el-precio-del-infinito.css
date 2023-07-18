@@ -5,7 +5,7 @@ main {
 .cuanto-cuesta {
     width: 100%;
     height: 252px;
-    background-image: url("/public/Media/portadaGranLienzoMobile.png");
+    background-image: url("/Media/portadaGranLienzoMobile.png");
     box-shadow: 10px 10px 5px 184px #000226e8 inset;
     -webkit-box-shadow: 10px 10px 5px 184px #0002266d inset;
     -moz-box-shadow: 10px 10px 5px 184px #000226 inset;
@@ -17,29 +17,35 @@ main {
     background: linear-gradient(358.06deg, #000226 11.45%, rgba(0, 1, 26, 0.933) 18.38%, rgba(0, 0, 0, 0.237) 39.19%);
     height: 280px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
 }
 
-.capa-cuanto>h1 {
+.capa-cuanto>div {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 7px;
+}
+
+.capa-cuanto>div h1 {
     font-family: 'EB Garamond', serif;
     font-size: 18px;
-    font-weight: lighter;
-    margin-top: 25px;
+    margin: 15px;
 }
 
-.capa-cuanto>p {
+.capa-cuanto>div p {
     font-size: 7px;
     text-align: center;
-    margin-top: 21px;
-
 }
 
-.capa-cuanto button {
+.capa-cuanto .button {
     width: 61px;
     font-size: 8px;
-    margin-bottom: 75px;
 }
 
 .libro-descripcion {
@@ -59,63 +65,78 @@ main {
 }
 
 .semanas {
-    background: linear-gradient(360deg, #00023100 65%, rgb(0 1 26 / 7%) 20.38%, rgb(0 0 41) 30.19%);
-    position: absolute;
-    height: 16px;
     width: 100%;
-    
-    text-align: center;
+    background: linear-gradient(0deg, #00023100 30%,rgba(0, 0, 41, 0.867) 60%, rgb(0, 0, 41) 70%);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-.semanas>h2{
+.semanas>h2 {
     font-weight: lighter;
     font-size: 7px;
+    text-align: center;
+
 }
 
 .lo-incuestionable {
-    background-image: url("/public/Media/fondoResumenCuentos.png");
+    width: 100%;
+    height: 186px;
+    background-image: url("/Media/fondoResumenCuentos.png");
     background-position: center;
     background-size: cover;
     background-position: 0px 3px;
-    box-shadow: 10px 10px 5px 184px #000226 inset;
-    -webkit-box-shadow: 10px 10px 5px 184px #000226a1 inset;
-    -moz-box-shadow: 10px 10px 5px 184px #000226 inset;
-    height: 186px;
+    box-shadow: 10px 10px 5px 184px #000226a1 inset;
+
+}
+
+.lo-incuestionable>.capa {
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
+.lo-incuestionable>.capa>div {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 23px;
+}
 
-
-.lo-incuestionable>h3 {
+.lo-incuestionable>.capa>div h3 {
     font-family: 'EB Garamond', serif;
     font-size: 10px;
-    margin-top: 10px;
 }
 
-.lo-incuestionable>p {
+.lo-incuestionable>.capa>div p {
     font-size: 7px;
     text-align: center;
 }
 
-.lo-incuestionable>a>button {
+.lo-incuestionable>.capa .button {
     width: 67px;
     height: 15px;
-    font-size: 6px;
+    font-size: 7px;
 }
 
 .conoce-mas {
-    background-image: url("/public/Media/mundoMobile.png");
+    background-image: url("/Media/mundoMobile.png");
     background-position: -2px -36px;
     background-size: cover;
     width: 100%;
     height: 134px;
-    
+
 }
 
-.conoce-mas>.capa{
+.conoce-mas>.capa {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 1%, rgba(178, 178, 178, 0.532) 8%, rgba(255, 255, 255, 0.529) 100%);
     width: 100%;
     height: 134px;
@@ -124,18 +145,25 @@ main {
     flex-direction: column;
     align-items: center;
     color: rgba(32, 32, 32, 1);
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
 
 }
 
-.conoce-mas>.capa>h2 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 12px;
-    margin-top: 35px;
+.conoce-mas>.capa>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
 }
 
-.conoce-mas>.capa>p {
+.conoce-mas>.capa>div h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+}
+
+.conoce-mas>.capa>div p {
     font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     font-weight: bolder;
@@ -144,9 +172,9 @@ main {
     line-height: 7.31px;
 }
 
-.conoce-mas>.capa>a>button {
+.conoce-mas>.capa>.button {
     width: 109px;
     height: 15px;
-    font-size: 7px;
-    margin-bottom: 30px;
+    font-size: 6px;
+
 }

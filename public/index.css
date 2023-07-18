@@ -1,7 +1,7 @@
 .comprar {
     width: 100%;
     height: 200px;
-    background-image: url("/public/Media/coverMobile.png");
+    background-image: url("/Media/coverMobile.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -36,7 +36,7 @@
     line-height: 19.5px;
 }
 
-.comprar>.capa>a>button {
+.comprar>.capa>.button {
     width: 61px;
     font-size: 10px;
     margin-top: 40px;
@@ -45,7 +45,7 @@
 .cuentos {
     width: 100%;
     height: 193px;
-    background-image: url("/public/Media/granLienzoMobile.png");
+    background-image: url("/Media/granLienzoMobile.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -76,7 +76,7 @@
     font-size: 8px;
 }
 
-.cuentos>.capa>a>button {
+.cuentos>.capa>.button {
     width: 106px;
     font-size: 9px;
     margin-bottom: 18px;
@@ -85,7 +85,7 @@
 .lienzo {
     width: 100%;
     height: 157px;
-    background-image: url("/public/Media/mundoMobile.png");
+    background-image: url("/Media/mundoMobile.png");
     background-position: center;
     background-size: cover;
     background-position: -5px -35px;
@@ -117,7 +117,7 @@
     text-align: center;
 }
 
-.lienzo>.capa>a>button {
+.lienzo>.capa>.button {
     width: 116px;
     font-size: 9px;
     margin-bottom: 10px;
@@ -126,7 +126,7 @@
 .autor {
     width: 100%;
     height: 143px;
-    background-image: url("/public/Media/jonMobile.png");
+    background-image: url("/Media/jonMobile.png");
     background-position: 0px -5px;
     background-size: cover;
     position: relative;
@@ -156,7 +156,7 @@
     margin-top: 15px;
 }
 
-.autor>.capa>a>button {
+.autor>.capa>.button {
     width: 108px;
     font-size: 9px;
     margin-bottom: 10px;

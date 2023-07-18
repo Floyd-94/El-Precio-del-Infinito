@@ -30,7 +30,7 @@
     margin-bottom: 5px;
 }
 
-.botones>a>button {
+.botones>.button {
     width: 61px;
     font-size: 8px;
     margin: 20px;
@@ -63,7 +63,7 @@
     
 }
 
-.bancar>a>button {
+.bancar>.button {
     width: 61px;
     font-size: 10px;
 

@@ -1,7 +1,7 @@
 .entra {
     width: 100%;
     height: 200px;
-    background-image: url("/public/Media/mundoMobile.png");
+    background-image: url("/Media/mundoMobile.png");
     background-position: center;
     background-size: cover;
     background-position: 8px 0px;
@@ -37,7 +37,7 @@
 .entregado {
     width: 100%;
     height: 207px;
-    background-image: url("/public/Media/fondoResumenCuentos.png");
+    background-image: url("/Media/fondoResumenCuentos.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -159,7 +159,7 @@
 .ayudar-proyecto {
     width: 100%;
     height: 134px;
-    background-image: url("/public/Media/mundoMobile.png");
+    background-image: url("/Media/mundoMobile.png");
     background-position: center;
     background-size: cover;
     background-position: 10px -20px;
@@ -193,8 +193,8 @@
     font-weight: bolder;
 }
 
-.ayudar-proyecto>.capa>a>button {
+.ayudar-proyecto>.capa>.button {
     width: 83px;
     height: 15px;
     font-size: 7px;
-}
+} 

@@ -5,7 +5,7 @@ main {
 .presentacion {
     width: 100%;
     height: 202px;
-    background-image: url("/public/Media/jonMobile.png");
+    background-image: url("/Media/jonMobile.png");
     background-position: -1px -12px;
     background-size: 340px;
     position: relative;
@@ -48,6 +48,27 @@ main {
     flex-direction: column;
 }
 
+.la-mano>h2 {
+    width: 100%;
+    height: 50px;
+    font-family: 'EB Garamond', serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.la-mano>p {
+    width: 100%;
+    height: 50px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .cartas {
     width: 100%;
     height: 100%;
@@ -62,5 +83,77 @@ main {
     height: 190px;
     background-color: rgba(30, 144, 255, 1);
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
 
+}
+
+.carta-habitante {
+    display: flex;
+    flex-direction: column;
+}
+
+.carta>.habitante {
+    font-size: 8px;
+    visibility: hidden;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.influencias {
+    width: 100%;
+    height: 167px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.597) 1%, rgb(74, 81, 217) 6%, rgb(74, 81, 217) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.influencia {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.influencias .influencia>h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.influencias .influencia p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    font-weight: bolder;
+}
+
+.influencias h3 {
+    width: 254px;
+    height: 15px;
+    background-color: rgba(30, 144, 255, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.influencias .influencia-p {
+    width: 254px;
+    height: 40px;
+    background-color: rgba(160, 192, 239, 1);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    text-align: left;
+    font-weight: bolder;
+    color: black;
 }

@@ -7,6 +7,7 @@ body {
     width: 320px;
     background: #202020;
     font-family: 'Cabin', sans-serif;
+    font-weight: 400;
     color: white;
 }
 
@@ -30,7 +31,12 @@ header {
     text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 1px;
 }
 
-a>button {
+
+.button {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(30, 144, 255, 1);
     border-radius: 2px;
     border: 0px;
