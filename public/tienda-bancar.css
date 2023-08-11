@@ -20,7 +20,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .botones {
@@ -60,11 +60,235 @@
     margin-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    
+
 }
 
 .bancar>.button {
     width: 61px;
     font-size: 10px;
 
+}
+
+@media (min-width: 360px) {
+
+    .ayuda {
+        height: 150px;
+    }
+
+    .ayuda>h1 {
+        font-size: 22.5px;
+        margin-top: 25px;
+    }
+
+    .ayuda>p {
+        font-size: 7px;
+    }
+
+    .botones>.button {
+        width: 65px;
+        font-size: 8.5px;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
+    .bancar {
+        height: 230px;
+    }
+
+    .bancar>p {
+        font-size: 6.5px;
+        margin-bottom: 15px;
+    }
+
+    .bancar>.button {
+        width: 65px;
+        font-size: 10.5px;
+    }
+}
+
+@media (min-width: 410px) {
+
+    .ayuda {
+        height: 200px;
+    }
+
+    .ayuda>h1 {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+
+    .ayuda>p {
+        font-size: 8.5px;
+    }
+
+    .botones>.button {
+        width: 75px;
+        height: 30px;
+        font-size: 9.5px;
+        margin: 10px;
+        margin-bottom: 35px;
+    }
+
+    .bancar {
+        height: 270px;
+    }
+
+    .bancar>p {
+        font-size: 8.5px;
+        margin-bottom: 20px;
+    }
+
+    .bancar>.button {
+        width: 80px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 460px) {
+
+    .ayuda {
+        height: 240px;
+    }
+
+    .ayuda>h1 {
+        font-size: 27px;
+        margin-top: 45px;
+    }
+
+    .ayuda>p {
+        font-size: 9px;
+    }
+
+    .botones>.button {
+        width: 83px;
+        height: 35px;
+        font-size: 11px;
+        margin: 15px;
+        margin-bottom: 40px;
+    }
+
+    .bancar {
+        height: 290px;
+    }
+
+    .bancar>p {
+        font-size: 9.2px;
+        margin-bottom: 25px;
+    }
+
+    .bancar>.button {
+        width: 85px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 510px) {
+
+    .ayuda {
+        height: 220px;
+    }
+
+    .ayuda>h1 {
+        font-size: 31px;
+        margin-top: 40px;
+    }
+
+    .ayuda>p {
+        font-size: 10px;
+    }
+
+    .botones>.button {
+        width: 90px;
+        font-size: 13px;
+        margin: 15px;
+        margin-bottom: 30px;
+    }
+
+    .bancar {
+        height: 340px;
+    }
+
+    .bancar>p {
+        font-size: 10.3px;
+        margin-bottom: 25px;
+    }
+
+    .bancar>.button {
+        width: 100px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 560px) {
+
+    .ayuda {
+        height: 280px;
+    }
+
+    .ayuda>h1 {
+        font-size: 33px;
+        margin-top: 60px;
+    }
+
+    .ayuda>p {
+        font-size: 10.5px;
+    }
+
+    .botones>.button {
+        width: 95px;
+        font-size: 14px;
+        margin: 20px;
+        margin-bottom: 45px;
+    }
+
+    .bancar {
+        height: 370px;
+    }
+
+    .bancar>p {
+        font-size: 10.6px;
+        margin-bottom: 25px;
+    }
+
+    .bancar>.button {
+        width: 110px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 610px) {
+
+    .ayuda {
+        height: 290px;
+    }
+
+    .ayuda>h1 {
+        font-size: 37px;
+        margin-top: 60px;
+    }
+
+    .ayuda>p {
+        font-size: 12px;
+    }
+
+    .botones>.button {
+        width: 110px;
+        font-size: 15px;
+        margin: 20px;
+        margin-bottom: 45px;
+    }
+
+    .bancar {
+        height: 400px;
+    }
+
+    .bancar>p {
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+
+    .bancar>.button {
+        width: 110px;
+        font-size: 17px;
+    }
 }

@@ -66,7 +66,8 @@
 
 .cuentos>.capa>h2 {
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 400;
+    line-height: 20px;
     text-align: center;
     margin-top: 20px;
     font-family: 'EB Garamond', serif;
@@ -95,7 +96,7 @@
 .lienzo>.capa {
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 1%, rgba(255, 255, 255, 0.5) 10%, rgba(255, 255, 255, 0.529) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 1%, rgba(209, 209, 209, 0.5) 10%, rgba(196, 196, 196, 0.5) 100%);
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -168,16 +169,16 @@
     }
 
     .comprar>.capa>h1 {
-        margin-top: 90px;
+        margin-top: 87px;
     }
 
     .comprar>.capa>h1>.el-precio-del {
-        font-size: 11.5px;
+        font-size: 10.5px;
         line-height: 15.5px;
     }
 
     .comprar>.capa>h1>.infinito {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .comprar>.capa>.button {
@@ -187,12 +188,13 @@
     }
 
     .cuentos {
-        height: 220px;
+        height: 213px;
     }
 
     .cuentos>.capa>h2 {
         text-shadow: rgba(0, 0, 0, 0.9) 0px 2px 2px;
         font-size: 21px;
+        line-height: 23px;
         margin-top: 25px;
     }
 
@@ -207,7 +209,7 @@
     }
 
     .lienzo {
-        height: 225px;
+        height: 173px;
     }
 
     .lienzo>.capa>h2 {
@@ -224,26 +226,26 @@
     }
 
     .autor {
-        height: 180px;
+        height: 158px;
     }
 
     .autor>.capa>h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .autor>.capa>p {
-        font-size: 9px;
+        font-size: 8px;
     }
 
     .autor>.capa>.button {
-        width: 138px;
-        font-size: 11px;
+        width: 125px;
+        font-size: 10px;
     }
 }
 
 @media (min-width: 410px) {
     .comprar {
-        height: 245px;
+        height: 250px;
     }
 
     .comprar>.capa>h1 {
@@ -251,28 +253,29 @@
     }
 
     .comprar>.capa>h1>.el-precio-del {
-        font-size: 11.5px;
+        font-size: 12px;
         line-height: 18.5px;
     }
 
     .comprar>.capa>h1>.infinito {
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .comprar>.capa>.button {
-        margin-right: 12px;
-        width: 75px;
-        font-size: 11px;
-        margin-top: 55px;
+        margin-right: 14px;
+        width: 78px;
+        font-size: 12px;
+        margin-top: 58px;
     }
 
     .cuentos {
-        height: 248px;
+        height: 241px;
     }
 
     .cuentos>.capa>h2 {
-        font-size: 24px;
-        margin-top: 28px;
+        font-size: 23.4px;
+        margin-top: 27px;
+        line-height: 25px;
         text-shadow: rgba(0, 0, 0, 0.9) 0px 2px 2px;
     }
 
@@ -282,14 +285,13 @@
 
     .cuentos>.capa>.button {
         width: 135px;
-        font-size: 11.5px;
+        font-size: 11px;
         margin-bottom: 24px;
     }
 
     .lienzo {
-        height: 225px;
+        height: 196px;
     }
-
 
     .lienzo>.capa>h2 {
         font-size: 18px;
@@ -300,20 +302,20 @@
     }
 
     .lienzo>.capa>.button {
-        width: 150px;
+        width: 145px;
         font-size: 11px;
     }
 
     .autor {
-        height: 190px;
+        height: 179px;
     }
 
     .autor>.capa>h2 {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     .autor>.capa>p {
-        font-size: 9px;
+        font-size: 9.2px;
     }
 
     .autor>.capa>.button {
@@ -324,36 +326,37 @@
 
 @media (min-width: 460px) {
     .comprar {
-        height: 290px;
+        height: 280px;
     }
 
     .comprar>.capa>h1 {
-        margin-top: 120px;
+        margin-top: 115px;
     }
 
     .comprar>.capa>h1>.el-precio-del {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 22px;
     }
 
     .comprar>.capa>h1>.infinito {
-        font-size: 20px;
+        font-size: 21.5px;
     }
 
     .comprar>.capa>.button {
-        margin-right: 12px;
-        width: 90px;
-        font-size: 13px;
-        margin-top: 67px;
+        margin-right: 14px;
+        width: 86px;
+        font-size: 14px;
+        margin-top: 63px;
     }
 
     .cuentos {
-        height: 270px;
+        height: 268px;
     }
 
     .cuentos>.capa>h2 {
-        font-size: 26px;
-        margin-top: 24px;
+        font-size: 26.3px;
+        margin-top: 30px;
+        line-height: 27px;
         text-shadow: rgba(0, 0, 0, 0.9) 0px 2px 2px;
     }
 
@@ -362,49 +365,49 @@
     }
 
     .cuentos>.capa>.button {
-        width: 145px;
+        width: 148px;
         font-size: 13px;
         margin-bottom: 20px;
     }
 
     .lienzo {
-        height: 235px;
+        height: 218px;
     }
 
     .lienzo>.capa>h2 {
-        font-size: 19.5px;
+        font-size: 19.7px;
     }
 
     .lienzo>.capa>p {
-        font-size: 11.5px;
+        font-size: 11.2px;
     }
 
     .lienzo>.capa>.button {
-        width: 165px;
+        width: 160px;
         font-size: 12.5px;
     }
 
     .autor {
-        height: 210px;
+        height: 200px;
     }
 
     .autor>.capa>h2 {
-        font-size: 20.5px;
+        font-size: 20.1px;
     }
 
     .autor>.capa>p {
-        font-size: 11px;
+        font-size: 10.5px;
     }
 
     .autor>.capa>.button {
-        width: 165px;
+        width: 150px;
         font-size: 13px;
     }
 }
 
 @media (min-width: 510px) {
     .comprar {
-        height: 320px;
+        height: 310px;
     }
 
     .comprar>.capa>h1 {
@@ -421,19 +424,21 @@
     }
 
     .comprar>.capa>.button {
-        width: 100px;
+        width: 98px;
         font-size: 16px;
-        margin-top: 80px;
+        margin-top: 70px;
+        margin-right: 18px;
     }
 
     .cuentos {
-        height: 310px;
+        height: 297px;
     }
 
     .cuentos>.capa>h2 {
         text-shadow: rgba(0, 0, 0, 0.9) 0px 2px 2px;
-        font-size: 29px;
-        margin-top: 34px;
+        font-size: 29.3px;
+        line-height: 31px;
+        margin-top: 33px;
     }
 
     .cuentos>.capa>p {
@@ -444,52 +449,51 @@
     .cuentos>.capa>.button {
         width: 170px;
         font-size: 14.5px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .lienzo {
-        height: 300px;
+        height: 242px;
     }
 
     .lienzo>.capa>h2 {
-        font-size: 23px;
+        font-size: 22.2px;
     }
 
     .lienzo>.capa>p {
-        font-size: 13px;
+        font-size: 12.6px;
     }
 
     .lienzo>.capa>.button {
-        width: 190px;
-        font-size: 15px;
+        width: 177px;
+        font-size: 14px;
     }
 
     .autor {
-        height: 235px;
+        height: 221px;
     }
 
-
     .autor>.capa>h2 {
-        font-size: 23px;
+        font-size: 22.3px;
     }
 
     .autor>.capa>p {
-        font-size: 12px;
+        font-size: 11.5px;
     }
 
     .autor>.capa>.button {
-        width: 180px;
-        font-size: 15.5px;
+        width: 165px;
+        font-size: 14px;
     }
 }
 
 @media (min-width: 560px) {
     .comprar {
-        height: 340px;
+        height: 341px;
     }
 
     .comprar>.capa>h1 {
-        margin-top: 135px;
+        margin-top: 138px;
     }
 
     .comprar>.capa>h1>.el-precio-del {
@@ -502,19 +506,21 @@
     }
 
     .comprar>.capa>.button {
-        width: 100px;
-        font-size: 16.5px;
-        margin-top: 80px;
+        width: 110px;
+        font-size: 17px;
+        margin-top: 83px;
+        margin-right: 21px;
     }
 
     .cuentos {
-        height: 340px;
+        height: 327px;
     }
 
     .cuentos>.capa>h2 {
         text-shadow: rgba(0, 0, 0, 1) 0px 3px 3px;
-        font-size: 31.5px;
+        font-size: 32px;
         margin-top: 34px;
+        line-height: 35px;
     }
 
     .cuentos>.capa>p {
@@ -523,79 +529,80 @@
     }
 
     .cuentos>.capa>.button {
-        width: 180px;
+        width: 178px;
         font-size: 15.5px;
-        margin-bottom: 32px;
+        margin-bottom: 28px;
     }
 
     .lienzo {
-        height: 300px;
+        height: 266px;
     }
 
     .lienzo>.capa>h2 {
-        font-size: 23px;
+        font-size: 24.2px;
     }
 
     .lienzo>.capa>p {
-        font-size: 13.4px;
+        font-size: 13.7px;
     }
 
     .lienzo>.capa>.button {
-        width: 195px;
+        width: 198px;
         font-size: 15.5px;
     }
 
     .autor {
-        height: 255px;
+        height: 244px;
     }
 
-
     .autor>.capa>h2 {
-        font-size: 23.5px;
+        font-size: 24.6px;
     }
 
     .autor>.capa>p {
-        font-size: 12px;
+        font-size: 12.3px;
     }
 
     .autor>.capa>.button {
         width: 185px;
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
 @media (min-width: 610px) {
     .comprar {
-        height: 380px;
+        height: 373px;
     }
 
     .comprar>.capa>h1 {
-        margin-top: 155px;
+        margin-top: 150px;
     }
 
     .comprar>.capa>h1>.el-precio-del {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 19px;
+        line-height: 35px;
     }
 
     .comprar>.capa>h1>.infinito {
-        font-size: 28px;
+        font-size: 29.5px;
     }
 
     .comprar>.capa>.button {
-        width: 110px;
-        font-size: 18px;
-        margin-top: 92px;
+        width: 118px;
+        font-size: 19px;
+        margin-top: 88px;
+        margin-right: 22px;
     }
 
     .cuentos {
-        height: 370px;
+        height: 356px;
     }
 
     .cuentos>.capa>h2 {
         text-shadow: rgb(0, 0, 0) 1px 3px 1px;
-        font-size: 35px;
-        margin-top: 36px;
+        font-size: 35.5px;
+        line-height: 38px;
+        margin-top: 37px;
     }
 
     .cuentos>.capa>p {
@@ -604,17 +611,17 @@
     }
 
     .cuentos>.capa>.button {
-        width: 195px;
-        font-size: 17px;
+        width: 198px;
+        font-size: 16.8px;
         margin-bottom: 34px;
     }
 
     .lienzo {
-        height: 310px;
+        height:292px;
     }
 
     .lienzo>.capa>h2 {
-        font-size: 25.5px;
+        font-size: 26.2px;
     }
 
     .lienzo>.capa>p {
@@ -622,12 +629,12 @@
     }
 
     .lienzo>.capa>.button {
-        width: 220px;
-        font-size: 17px;
+        width: 215px;
+        font-size: 16.8px;
     }
 
     .autor {
-        height: 290px;
+        height: 265px;
     }
 
     .autor>.capa>h2 {
@@ -635,94 +642,94 @@
     }
 
     .autor>.capa>p {
-        font-size: 13.5px;
+        font-size: 13.3px;
     }
 
     .autor>.capa>.button {
-        width: 205px;
+        width: 200px;
         font-size: 16px;
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 660px) {
     .comprar {
-        height: 430px;
-        background-image: url("/Media/coverDesktop.png");
+        height: 406px;
     }
 
     .comprar>.capa>h1 {
-        margin-top: 170px;
-        margin-right: 20px;
+        margin-top: 160px;
     }
 
     .comprar>.capa>h1>.el-precio-del {
         font-size: 19.5px;
-        line-height: 45.5px;
+        line-height: 39px;
     }
 
     .comprar>.capa>h1>.infinito {
-        font-size: 31.5px;
+        font-size: 30.5px;
     }
 
     .comprar>.capa>.button {
-        width: 135px;
-        font-size: 22px;
-        margin-top: 102px;
-        margin-right: 20px;
+        width: 125px;
+        font-size: 20px;
+        margin-top: 100px;
+        margin-right: 24px;
     }
 
     .cuentos {
-        height: 430px;
+        height: 388px;
     }
 
     .cuentos>.capa>h2 {
         text-shadow: rgb(0, 0, 0) 1px 3px 1px;
-        font-size: 40.5px;
-        margin-top: 40px;
+        font-size: 38px;
+        line-height: 41px;
+        margin-top: 37px;
     }
 
     .cuentos>.capa>p {
-        font-size: 17.5px;
-    }
-
-    .cuentos>.capa>.button {
-        width: 225px;
-        font-size: 19.5px;
-        margin-bottom: 40px;
-    }
-
-    .lienzo {
-        height: 340px;
-    }
-
-    .lienzo>.capa>h2 {
-        font-size: 30px;
-    }
-
-    .lienzo>.capa>p {
-        font-size: 17.5px;
-    }
-
-    .lienzo>.capa>.button {
-        width: 255px;
-        font-size: 19.5px;
-    }
-
-    .autor {
-        height: 330px;
-    }
-
-    .autor>.capa>h2 {
-        font-size: 31.5px;
-    }
-
-    .autor>.capa>p {
+        text-shadow: rgb(0, 0, 0) 1px 3px 1px;
         font-size: 16px;
     }
 
+    .cuentos>.capa>.button {
+        width: 215px;
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .lienzo {
+        height:315px;
+    }
+
+    .lienzo>.capa>h2 {
+        font-size: 28.7px;
+    }
+
+    .lienzo>.capa>p {
+        font-size: 16.3px;
+    }
+
+    .lienzo>.capa>.button {
+        width: 233px;
+        font-size: 18px;
+    }
+
+    .autor {
+        height: 288px;
+    }
+
+    .autor>.capa>h2 {
+        font-size: 29.2px;
+    }
+
+    .autor>.capa>p {
+        font-size: 14.9px;
+    }
+
     .autor>.capa>.button {
-        width: 240px;
-        font-size: 19.5px;
+        width: 220px;
+        font-size: 18px;
     }
 }
 

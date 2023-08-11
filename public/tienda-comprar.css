@@ -21,6 +21,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     text-align: center;
+    font-weight: 600;
 }
 
 .botones {
@@ -39,12 +40,173 @@
 }
 
 .p-bancar {
-    background-color: rgba(0, 2, 38, 1);
+    background-color: rgb(0, 2, 38);
     border: 1px solid #1E90FF;
-    color: #1E90FF;
+    color: #1e8fff;
 }
 
 .pago {
     height: 210px;
     background-color: white;
+}
+
+@media (min-width: 360px) {
+    .ayuda {
+        height: 150px;
+    }
+
+    .ayuda>h1 {
+        font-size: 22.5px;
+        margin-top: 25px;
+    }
+
+    .ayuda>p {
+        font-size: 7px;
+    }
+
+    .botones>.button {
+        width: 65px;
+        font-size: 8.5px;
+        margin: 10px;
+        margin-bottom: 20px;
+    }
+
+    .pago {
+        height: 230px;
+    }
+}
+
+@media (min-width: 410px) {
+    .ayuda {
+        height: 200px;
+    }
+
+    .ayuda>h1 {
+        font-size: 25px;
+        margin-top: 35px;
+    }
+
+    .ayuda>p {
+        font-size: 8.5px;
+    }
+
+    .botones>.button {
+        width: 75px;
+        height: 30px;
+        font-size: 9.5px;
+        margin: 10px;
+        margin-bottom: 35px;
+    }
+
+    .pago {
+        height: 270px;
+    }
+}
+
+@media (min-width: 460px) {
+    .ayuda {
+        height: 240px;
+    }
+
+    .ayuda>h1 {
+        font-size: 27px;
+        margin-top: 45px;
+    }
+
+    .ayuda>p {
+        font-size: 9px;
+    }
+
+    .botones>.button {
+        width: 83px;
+        height: 35px;
+        font-size: 11px;
+        margin: 15px;
+        margin-bottom: 40px;
+    }
+
+    .pago {
+        height: 290px;
+    }
+}
+
+@media (min-width: 510px) {
+
+    .ayuda {
+        height: 220px;
+    }
+
+    .ayuda>h1 {
+        font-size: 31px;
+        margin-top: 40px;
+    }
+
+    .ayuda>p {
+        font-size: 10px;
+    }
+
+    .botones>.button {
+        width: 90px;
+        font-size: 13px;
+        margin: 15px;
+        margin-bottom: 30px;
+    }
+
+    .pago {
+        height: 340px;
+    }
+}
+
+@media (min-width: 560px) {
+
+    .ayuda {
+        height: 290px;
+    }
+
+    .ayuda>h1 {
+        font-size: 33px;
+        margin-top: 60px;
+    }
+
+    .ayuda>p {
+        font-size: 10.5px;
+    }
+
+    .botones>.button {
+        width: 95px;
+        font-size: 14px;
+        margin: 20px;
+        margin-bottom: 45px;
+    }
+
+    .pago {
+        height: 360px;
+    }
+}
+
+@media (min-width: 610px) {falta
+
+    .ayuda {
+        height: 290px;
+    }
+
+    .ayuda>h1 {
+        font-size: 33px;
+        margin-top: 60px;
+    }
+
+    .ayuda>p {
+        font-size: 10.5px;
+    }
+
+    .botones>.button {
+        width: 95px;
+        font-size: 14px;
+        margin: 20px;
+        margin-bottom: 45px;
+    }
+
+    .pago {
+        height: 370px;
+    }
 }

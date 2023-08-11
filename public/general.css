@@ -38,7 +38,6 @@ nav>i {
     text-shadow: rgba(0, 0, 0, 0.6) 0px 1px 1px;
 }
 
-
 .button {
     text-decoration: none;
     display: flex;
@@ -47,7 +46,7 @@ nav>i {
     background: rgba(30, 144, 255, 1);
     border-radius: 2px;
     border: 0px;
-    height: 22px;
+    height: 21px;
     color: rgba(255, 255, 255, 1);
     font-family: 'Cabin', sans-serif;
 }
@@ -67,6 +66,7 @@ footer {
 .logoVertical {
     width: 75px;
     height: 33px;
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 
@@ -76,180 +76,219 @@ footer>a {
     text-decoration: none;
 }
 
-@media (min-width: 360px){
+@media (min-width: 360px) {
     header {
-        height: 55px;  
+        height: 54px;
     }
 
     .logoHorizontal {
-        width: 130px;
-        height: 25px;
-        margin-left: 15px;
+        width: 135px;
+        height: 28px;
+        margin-left: 10px;
+        margin-top: 5px;
     }
-    
+
     nav>i {
-        margin-right: 15px;
+        margin-right: 10px;
         font-size: 22px;
     }
 
-
     footer {
-        height: 220px;
-       
+        height: 160px;
     }
-    
+
     .logoVertical {
-        width: 95px;
-        height: 45px;
-        margin-bottom: 10px;
+        width: 90px;
+        height: 38px;
+        margin-top: 9px;
+        margin-bottom: 9px;
     }
-    
+
     footer>a {
-        font-size: 10px;
+        font-size: 9.5px;
     }
 
     .button {
-        height: 30px;
-        border-radius: 3px;
+        height: 22px;
+        border-radius: 2px;
     }
 }
 
-@media (min-width: 410px){
+@media (min-width: 410px) {
     header {
-        height: 65px;  
+        height: 61.5px;
     }
 
     .logoHorizontal {
-        width: 150px;
-        height: 28px;
-        margin-left: 15px;
+        width: 153px;
+        height: 31px;
+        margin-left: 12px;
+        margin-top: 7px;
     }
-    
+
     nav>i {
-        margin-right: 15px;
+        margin-right: 12px;
         font-size: 25px;
     }
 
     footer {
-        height: 250px;
+        height: 185px;
     }
-    
+
     .logoVertical {
-        width: 100px;
+        width: 97px;
+        height: 42px;
+        margin-bottom: 10px;
+    }
+
+    footer>a {
+        font-size: 10.2px;
+    }
+
+    .button {
+        height: 25px;
+        border-radius: 3px;
+    }
+}
+
+@media (min-width: 460px) {
+    header {
+        height: 67px;
+    }
+
+    .logoHorizontal {
+        width: 172px;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 8px;
+    }
+
+    nav>i {
+        margin-right: 15px;
+        font-size: 28px;
+    }
+
+    footer {
+        height: 205px;
+    }
+
+    .logoVertical {
+        width: 105px;
         height: 50px;
         margin-bottom: 10px;
     }
-    
+
     footer>a {
-        font-size: 11px;
+        font-size: 11.3px;
     }
 
     .button {
-        height: 30px;
+        height: 27.5px;
         border-radius: 3px;
     }
 }
 
-@media (min-width: 460px){
+@media (min-width: 510px) {
     header {
-        height: 75px;  
+        height: 75px;
     }
 
     .logoHorizontal {
-        width: 165px;
-        height: 35px;
-        margin-left: 15px;
+        width: 190px;
+        height: 37px;
+        margin-left: 14px;
+        margin-top: 9px;
     }
-    
+
     nav>i {
         margin-right: 15px;
-        font-size: 28px;
+        font-size: 33px;
     }
 
     footer {
-        height: 270px;
-    }
-    
-    .logoVertical {
-        width: 115px;
-        height: 55px;
-        margin-bottom: 10px;
-    }
-    
-    footer>a {
-        font-size: 13px;
+        height: 230px;
     }
 
-    .button {
-        height: 33px;
-        border-radius: 3px;
-    }
-}
-
-@media (min-width: 510px){
-    header {
-        height: 75px;  
-    }
-
-    .logoHorizontal {
-        width: 165px;
-        height: 35px;
-        margin-left: 15px;
-    }
-    
-    nav>i {
-        margin-right: 15px;
-        font-size: 28px;
-    }
-
-    footer {
-        height: 270px;
-    }
-    
     .logoVertical {
         width: 120px;
-        height: 57px;
+        height: 50px;
         margin-bottom: 10px;
     }
-    
+
     footer>a {
-        font-size: 13px;
+        font-size: 12.5px;
     }
 
     .button {
-        height: 35px;
+        height: 29px;
         border-radius: 4px;
     }
 }
 
-@media (min-width: 560px){
+@media (min-width: 560px) {
     header {
-        height: 95px;  
+        height: 83px;
     }
 
     .logoHorizontal {
-        width: 215px;
-        height: 45px;
-        margin-left: 20px;
+        width: 212px;
+        height: 41.5px;
+        margin-left: 14px;
     }
-    
+
     nav>i {
-        margin-right: 20px;
-        font-size: 30px;
+        margin-right: 15px;
+        font-size: 33px;
     }
 
     footer {
-        height: 270px;
+        height: 256px;
     }
-    
+
     .logoVertical {
-        width: 135px;
-        height: 60px;
+        width: 129px;
+        height: 55px;
         margin-bottom: 10px;
     }
-    
+
     footer>a {
-        font-size: 14.5px;
+        font-size: 13.9px;
+    }
+
+    .button {
+        height: 32px;
+        border-radius: 4px;
+    }
+}
+
+@media (min-width: 610px) {
+    header {
+        height: 90px;
+    }
+
+    .logoHorizontal {
+        width: 230px;
+        height: 46px;
+        margin-left: 15px;
+    }
+
+    nav>i {
+        margin-right: 20px;
+        font-size: 37px;
+    }
+
+    footer {
+        height: 278px;
+    }
+
+    .logoVertical {
+        width: 141px;
+        height: 62px;
+        margin-bottom: 10px;
+    }
+
+    footer>a {
+        font-size: 15.2px;
     }
 
     .button {
@@ -258,34 +297,34 @@ footer>a {
     }
 }
 
-@media (min-width: 610px){
+@media (min-width: 660px) {
     header {
-        height: 95px;  
+        height: 98px;
     }
 
     .logoHorizontal {
-        width: 215px;
-        height: 45px;
-        margin-left: 20px;
+        width: 253px;
+        height: 51px;
+        margin-left: 15px;
     }
-    
+
     nav>i {
-        margin-right: 20px;
-        font-size: 30px;
+        margin-right: 23px;
+        font-size: 39px;
     }
 
     footer {
-        height: 290px;
+        height: 306px;
     }
-    
+
     .logoVertical {
-        width: 135px;
+        width: 150px;
         height: 65px;
         margin-bottom: 10px;
     }
-    
+
     footer>a {
-        font-size: 14.5px;
+        font-size: 16.5px;
     }
 
     .button {
@@ -294,45 +333,9 @@ footer>a {
     }
 }
 
-@media (min-width: 700px){
+@media (min-width: 800px) {
     header {
-        height: 100px;  
-    }
-
-    .logoHorizontal {
-        width: 240px;
-        height: 55px;
-        margin-left: 25px;
-    }
-    
-    nav>i {
-        margin-right: 25px;
-        font-size: 35px;
-    }
-
-    footer {
-        height: 350px;
-    }
-    
-    .logoVertical {
-        width: 160px;
-        height: 75px;
-        margin-bottom: 10px;
-    }
-    
-    footer>a {
-        font-size: 17px;
-    }
-
-    .button {
-        height: 45px;
-        border-radius: 5px;
-    }
-}
-
-@media (min-width: 800px){
-    header {
-        height: 110px;  
+        height: 110px;
     }
 
     .logoHorizontal {
@@ -340,7 +343,7 @@ footer>a {
         height: 60px;
         margin-left: 25px;
     }
-    
+
     nav>i {
         margin-right: 25px;
         font-size: 40px;
@@ -349,13 +352,13 @@ footer>a {
     footer {
         height: 380px;
     }
-    
+
     .logoVertical {
         width: 175px;
         height: 80px;
         margin-bottom: 10px;
     }
-    
+
     footer>a {
         font-size: 19px;
     }
