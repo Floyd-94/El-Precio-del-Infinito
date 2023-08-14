@@ -156,7 +156,7 @@ main {
 .conoce-mas>.capa>p {
     font-family: 'Montserrat', sans-serif;
     font-size: 6px;
-    font-weight: bolder;
+    font-weight: 600;
     margin-bottom: 12px;
     margin-top: 3px;
     line-height: 7.31px;
@@ -174,16 +174,16 @@ main {
     }
 
     .capa-cuanto {
-        height: 310px;
+        height: 308px;
     }
 
     .capa-cuanto>div {
-        height: 210px;
+        height: 207px;
     }
 
     .capa-cuanto>div h1 {
-        font-size: 22px;
-        margin: 31px;
+        font-size: 22.3px;
+        margin: 40px;
     }
 
     .capa-cuanto>div p {
@@ -191,13 +191,13 @@ main {
     }
 
     .capa-cuanto .button {
-        width: 65px;
-        font-size: 10.5px;
-        margin-top: 20px;
+        width: 67px;
+        font-size: 10.3px;
+        margin-top: 15px;
     }
 
     .libro-descripcion {
-        height: 180px;
+        height: 175px;
         line-height: 10px;
     }
 
@@ -209,51 +209,41 @@ main {
     .imp-libro {
         width: 85px;
         height: 145px;
+        margin-left: 14px;
+        margin-right: 14px;
     }
 
     .semanas>h2 {
-        font-size: 7.3px;
+        font-size: 7.5px;
         margin-right: 10px;
     }
 
     .lo-incuestionable {
-        height: 208px;
-    }
-
-    .lo-incuestionable>.capa {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
+        height: 203px;
     }
 
     .lo-incuestionable>.capa>div {
-        height: 100px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        margin: 23px;
+        height: 97px;
+        margin: 0;
+        margin-top: 30px;
     }
 
     .lo-incuestionable>.capa>div h3 {
-        font-family: 'EB Garamond', serif;
-        font-size: 10px;
+        font-size: 11.3px;
+        margin-right: 5px;
     }
 
     .lo-incuestionable>.capa>div p {
-        font-size: 7px;
-        text-align: center;
+        font-size: 7.5px;
+        margin-right: 5px;
     }
 
     .lo-incuestionable>.capa .button {
-        width: 67px;
-        height: 15px;
-        font-size: 7px;
+        width: 73px;
+        height: 17px;
+        font-size: 8px;
+        margin-top: 23px;
+        margin-right: 5px;
     }
 
     .conoce-mas {
@@ -261,19 +251,117 @@ main {
     }
 
     .conoce-mas>.capa>h2 {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .conoce-mas>.capa>p {
-        font-size: 7.3px;
+        font-size: 6.7px;
         margin-bottom: 20px;
         margin-top: 4px;
         line-height: 8px;
     }
 
     .conoce-mas>.capa>.button {
-        width: 120px;
-        height: 16px;
+        width: 116px;
+        font-size: 7px;
+    }
+}
+
+@media (min-width: 410px) {
+    .cuanto-cuesta {
+        height: 320px;
+    }
+
+    .capa-cuanto {
+        height: 350px;
+    }
+
+    .capa-cuanto>div {
+        height: 207px;
+    }
+
+    .capa-cuanto>div h1 {
+        font-size: 22.3px;
+        margin: 40px;
+    }
+
+    .capa-cuanto>div p {
+        font-size: 7.5px;
+    }
+
+    .capa-cuanto .button {
+        width: 67px;
+        font-size: 10.3px;
+        margin-top: 15px;
+    }
+
+    .libro-descripcion {
+        height: 175px;
+        line-height: 10px;
+    }
+
+    .libro-descripcion>div {
+        font-size: 7.5px;
+        margin-bottom: 25px;
+    }
+
+    .imp-libro {
+        width: 85px;
+        height: 145px;
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+
+    .semanas>h2 {
+        font-size: 7.5px;
+        margin-right: 10px;
+    }
+
+    .lo-incuestionable {
+        height: 203px;
+    }
+
+    .lo-incuestionable>.capa>div {
+        height: 97px;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .lo-incuestionable>.capa>div h3 {
+        font-size: 11.3px;
+        margin-right: 5px;
+    }
+
+    .lo-incuestionable>.capa>div p {
+        font-size: 7.5px;
+        margin-right: 5px;
+    }
+
+    .lo-incuestionable>.capa .button {
+        width: 73px;
+        height: 17px;
         font-size: 8px;
+        margin-top: 23px;
+        margin-right: 5px;
+    }
+
+    .conoce-mas {
+        height: 145px;
+    }
+
+    .conoce-mas>.capa>h2 {
+        font-size: 13px;
+    }
+
+    .conoce-mas>.capa>p {
+        font-size: 6.7px;
+        margin-bottom: 20px;
+        margin-top: 4px;
+        line-height: 8px;
+    }
+
+    .conoce-mas>.capa>.button {
+        width: 116px;
+        font-size: 7px;
     }
 }

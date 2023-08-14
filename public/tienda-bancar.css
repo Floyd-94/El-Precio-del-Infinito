@@ -72,27 +72,28 @@
 @media (min-width: 360px) {
 
     .ayuda {
-        height: 150px;
+        height: 151px;
     }
 
     .ayuda>h1 {
-        font-size: 22.5px;
-        margin-top: 25px;
+        font-size: 21.4px;
+        line-height: 40px;
+        margin-top: 20px;
     }
 
     .ayuda>p {
-        font-size: 7px;
+        font-size: 7.1px;
     }
 
     .botones>.button {
         width: 65px;
         font-size: 8.5px;
         margin: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 24px;
     }
 
     .bancar {
-        height: 230px;
+        height: 229px;
     }
 
     .bancar>p {
@@ -109,32 +110,32 @@
 @media (min-width: 410px) {
 
     .ayuda {
-        height: 200px;
+        height: 174px;
     }
 
     .ayuda>h1 {
-        font-size: 25px;
-        margin-top: 35px;
+        font-size: 24.3px;
+        line-height: 46px;
+        margin-top: 28px;
     }
 
     .ayuda>p {
-        font-size: 8.5px;
+        font-size: 7.8px;
     }
 
     .botones>.button {
         width: 75px;
-        height: 30px;
         font-size: 9.5px;
         margin: 10px;
-        margin-bottom: 35px;
+        margin-bottom: 25px;
     }
 
     .bancar {
-        height: 270px;
+        height: 262px;
     }
 
     .bancar>p {
-        font-size: 8.5px;
+        font-size: 8px;
         margin-bottom: 20px;
     }
 
@@ -147,12 +148,13 @@
 @media (min-width: 460px) {
 
     .ayuda {
-        height: 240px;
+        height: 195px;
     }
 
     .ayuda>h1 {
         font-size: 27px;
-        margin-top: 45px;
+        margin-top: 35px;
+        line-height: 51px;
     }
 
     .ayuda>p {
@@ -161,134 +163,174 @@
 
     .botones>.button {
         width: 83px;
-        height: 35px;
         font-size: 11px;
         margin: 15px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .bancar {
-        height: 290px;
+        height: 296px;
     }
 
     .bancar>p {
-        font-size: 9.2px;
+        font-size: 9.3px;
         margin-bottom: 25px;
     }
 
     .bancar>.button {
-        width: 85px;
-        font-size: 13px;
+        width: 87px;
+        font-size: 13.5px;
     }
 }
 
 @media (min-width: 510px) {
 
     .ayuda {
-        height: 220px;
+        height: 216px;
     }
 
     .ayuda>h1 {
-        font-size: 31px;
-        margin-top: 40px;
+        font-size: 30.2px;
+        margin-top: 30px;
+        line-height: 60px;
     }
 
     .ayuda>p {
-        font-size: 10px;
+        font-size: 9.8px;
     }
 
     .botones>.button {
-        width: 90px;
-        font-size: 13px;
-        margin: 15px;
+        width: 95px;
+        font-size: 12px;
+        margin: 20px;
         margin-bottom: 30px;
     }
 
     .bancar {
-        height: 340px;
+        height: 328px;
     }
 
     .bancar>p {
-        font-size: 10.3px;
+        font-size: 10.1px;
         margin-bottom: 25px;
     }
 
     .bancar>.button {
-        width: 100px;
-        font-size: 15px;
+        width: 95px;
+        font-size: 16px;
     }
 }
 
 @media (min-width: 560px) {
 
     .ayuda {
-        height: 280px;
+        height: 238px;
     }
 
     .ayuda>h1 {
-        font-size: 33px;
-        margin-top: 60px;
+        font-size: 33.4px;
+        margin-top: 28px;
+        line-height: 60px;
     }
 
     .ayuda>p {
-        font-size: 10.5px;
+        font-size: 11px;
     }
 
     .botones>.button {
-        width: 95px;
+        width: 105px;
         font-size: 14px;
         margin: 20px;
-        margin-bottom: 45px;
+        margin-bottom: 33px;
     }
 
     .bancar {
-        height: 370px;
+        height: 362px;
     }
 
     .bancar>p {
-        font-size: 10.6px;
+        font-size: 11px;
         margin-bottom: 25px;
     }
 
     .bancar>.button {
-        width: 110px;
-        font-size: 17px;
+        width: 105px;
+        font-size: 16px;
     }
 }
 
 @media (min-width: 610px) {
 
     .ayuda {
-        height: 290px;
+        height: 258px;
     }
 
     .ayuda>h1 {
-        font-size: 37px;
-        margin-top: 60px;
+        font-size: 36.2px;
+        margin-top: 44px;
+        line-height: 64px;
     }
 
     .ayuda>p {
-        font-size: 12px;
+        font-size: 11.7px;
     }
 
     .botones>.button {
-        width: 110px;
-        font-size: 15px;
+        width: 115px;
+        font-size: 16px;
         margin: 20px;
-        margin-bottom: 45px;
+        margin-bottom: 37px;
     }
 
     .bancar {
-        height: 400px;
+        height: 396px;
     }
 
     .bancar>p {
-        font-size: 12px;
-        margin-bottom: 25px;
+        font-size: 11.9px;
+        margin-bottom: 30px;
     }
 
     .bancar>.button {
-        width: 110px;
+        width: 115px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 660px) {
+
+    .ayuda {
+        height: 281px;
+    }
+
+    .ayuda>h1 {
+        font-size: 39.3px;
+        margin-top: 44px;
+        line-height: 64px;
+    }
+
+    .ayuda>p {
+        font-size: 12.9px;
+    }
+
+    .botones>.button {
+        width: 125px;
         font-size: 17px;
+        margin: 20px;
+        margin-bottom: 37px;
+    }
+
+    .bancar {
+        height: 428px;
+    }
+
+    .bancar>p {
+        font-size: 13.1px;
+        margin-bottom: 30px;
+    }
+
+    .bancar>.button {
+        width: 125px;
+        font-size: 20px;
     }
 }
