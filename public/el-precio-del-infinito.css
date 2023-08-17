@@ -5,7 +5,7 @@ main {
 .cuanto-cuesta {
     width: 100%;
     height: 252px;
-    background-image: url("/Media/portadaGranLienzoMobile.png");
+    background-image: url("Media/portadaGranLienzoMobile.png");
     box-shadow: 10px 10px 5px 700px #0002266d inset;
     background-position: center;
     background-size: cover;
@@ -80,7 +80,7 @@ main {
 .lo-incuestionable {
     width: 100%;
     height: 186px;
-    background-image: url("/Media/fondoResumenCuentos.png");
+    background-image: url("Media/fondoResumenCuentos.png");
     background-position: center;
     background-size: cover;
     background-position: 0px 3px;
@@ -127,7 +127,7 @@ main {
     position: relative;
     width: 100%;
     height: 134px;
-    background-image: url("/Media/mundoMobile.png");
+    background-image: url("Media/mundoMobile.png");
     background-position: -2px -36px;
     background-size: cover;
 }
@@ -152,7 +152,6 @@ main {
 }
 
 .conoce-mas>.capa>p {
-    font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     font-weight: 600;
     margin-bottom: 12px;

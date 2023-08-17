@@ -5,7 +5,7 @@ main {
 .presentacion {
     width: 100%;
     height: 202px;
-    background-image: url("/Media/jonMobile.png");
+    background-image: url("Media/jonMobile.png");
     background-position: -1px -12px;
     background-size: 340px;
     position: relative;
@@ -31,7 +31,6 @@ main {
 }
 
 .presentacion>.capa>p {
-    font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     font-weight: bolder;
     text-align: center;
@@ -128,7 +127,6 @@ main {
 }
 
 .influencias .influencia p {
-    font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     font-weight: bolder;
 }
@@ -151,7 +149,6 @@ main {
     background-color: rgba(160, 192, 239, 1);
     display: flex;
     flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     text-align: left;
     font-weight: bolder;
