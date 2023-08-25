@@ -736,7 +736,7 @@
 @media (min-width: 800px) {
     .comprar {
         height: 490px;
-        background-image: url("/Media/coverDesktop.png");
+        background-image: url("Media/coverDesktop.png");
     }
 
     .comprar>.capa>h1 {

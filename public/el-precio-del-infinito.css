@@ -91,30 +91,35 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .lo-incuestionable>.capa>div {
-    height: 100px;
+    height: 130px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    margin: 23px;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+.lo-incuestionable>.capa>i {
+    margin: 13px;
+    font-size: 18px;
 }
 
 .lo-incuestionable>.capa>div h3 {
     font-family: 'EB Garamond', serif;
     font-size: 10px;
+    margin-top: 12px;
 }
 
 .lo-incuestionable>.capa>div p {
     font-size: 7px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .lo-incuestionable>.capa .button {
@@ -220,19 +225,23 @@ main {
     }
 
     .lo-incuestionable>.capa>div {
-        height: 97px;
-        margin: 0;
-        margin-top: 30px;
+        height: 150px;
+        margin-right: 8px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 14px;
+        font-size: 20px;
     }
 
     .lo-incuestionable>.capa>div h3 {
         font-size: 11.3px;
-        margin-right: 5px;
+        margin-top: 18px;
     }
 
     .lo-incuestionable>.capa>div p {
         font-size: 7.5px;
-        margin-right: 5px;
+        margin-top: 22px;
     }
 
     .lo-incuestionable>.capa .button {
@@ -319,19 +328,23 @@ main {
     }
 
     .lo-incuestionable>.capa>div {
-        height: 118px;
-        margin: 0;
-        margin-top: 36px;
-        margin-right: 5px;
+        height: 170px;
+        margin-right: 8px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 15px;
+        font-size: 22px;
     }
 
     .lo-incuestionable>.capa>div h3 {
         font-size: 13px;
+        margin-top: 18px;
     }
 
     .lo-incuestionable>.capa>div p {
-        font-size: 8.3px;
-        margin-bottom: 6px;
+        font-size: 8.8px;
+        margin-top: 22px;
         line-height: 11px;
     }
 
@@ -420,20 +433,24 @@ main {
     }
 
     .lo-incuestionable>.capa>div {
-        height: 133px;
-        margin: 0;
-        margin-top: 39px;
-        margin-right: 5px;
+        height: 190px;
+        margin-right: 8px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 18px;
+        font-size: 24px;
     }
 
     .lo-incuestionable>.capa>div h3 {
         font-size: 14.5px;
+        margin-top: 18px;
     }
 
     .lo-incuestionable>.capa>div p {
         font-size: 10px;
-        margin-bottom: 6px;
-        line-height: 13px;
+        margin-top: 22px;
+        line-height: 11px;
     }
 
     .lo-incuestionable>.capa .button {
@@ -521,19 +538,23 @@ main {
     }
 
     .lo-incuestionable>.capa>div {
-        height: 150px;
-        margin: 0;
-        margin-top: 42px;
-        margin-right: 5px;
+        height: 205px;
+        margin-right: 9px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 20px;
+        font-size: 26px;
     }
 
     .lo-incuestionable>.capa>div h3 {
-        font-size: 15.9px;
+        font-size: 14.5px;
+        margin-top: 16px;
     }
 
     .lo-incuestionable>.capa>div p {
         font-size: 11.4px;
-        margin-bottom: 6px;
+        margin-top: 22px;
         line-height: 14px;
     }
 
@@ -546,7 +567,7 @@ main {
     }
 
     .conoce-mas {
-        height:205px;
+        height: 205px;
     }
 
     .conoce-mas>.capa>h2 {
@@ -623,19 +644,23 @@ main {
     }
 
     .lo-incuestionable>.capa>div {
-        height: 150px;
-        margin: 0;
-        margin-top: 42px;
-        margin-right: 5px;
+        height: 225px;
+        margin-right: 10px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 23px;
+        font-size: 29px;
     }
 
     .lo-incuestionable>.capa>div h3 {
         font-size: 17.9px;
+        margin-top: 16px;
     }
 
     .lo-incuestionable>.capa>div p {
         font-size: 12.1px;
-        margin-bottom: 6px;
+        margin-top: 22px;
         line-height: 14px;
     }
 
@@ -648,7 +673,7 @@ main {
     }
 
     .conoce-mas {
-        height:230px;
+        height: 230px;
     }
 
     .conoce-mas>.capa>h2 {
@@ -725,20 +750,24 @@ main {
     }
 
     .lo-incuestionable>.capa>div {
-        height: 180px;
-        margin: 0;
-        margin-top: 49px;
-        margin-right: 8px;
+        height: 245px;
+        margin-right: 10px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 23px;
+        font-size: 29px;
     }
 
     .lo-incuestionable>.capa>div h3 {
         font-size: 19px;
+        margin-top: 24px;
     }
 
     .lo-incuestionable>.capa>div p {
         font-size: 13.3px;
-        margin-bottom: 6px;
-        line-height: 17px;
+        margin-top: 24px;
+        line-height: 14px;
     }
 
     .lo-incuestionable>.capa .button {
@@ -750,7 +779,7 @@ main {
     }
 
     .conoce-mas {
-        height:248px;
+        height: 248px;
     }
 
     .conoce-mas>.capa>h2 {
@@ -824,23 +853,28 @@ main {
 
     .lo-incuestionable {
         height: 379px;
+        box-shadow: 10px 10px 30px 200px #000226a1 inset;
     }
 
     .lo-incuestionable>.capa>div {
-        height: 195px;
-        margin: 0;
-        margin-top: 52px;
-        margin-right: 8px;
+        height: 265px;
+        margin-right: 10px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 25px;
+        font-size: 31px;
     }
 
     .lo-incuestionable>.capa>div h3 {
         font-size: 21px;
+        margin-top: 20px;
     }
 
     .lo-incuestionable>.capa>div p {
         font-size: 14.3px;
-        margin-bottom: 6px;
-        line-height: 17px;
+        margin-top: 28px;
+        line-height: 16px;
     }
 
     .lo-incuestionable>.capa .button {
@@ -852,7 +886,114 @@ main {
     }
 
     .conoce-mas {
-        height:270px;
+        height: 270px;
+    }
+
+    .conoce-mas>.capa>h2 {
+        font-size: 24.8px;
+    }
+
+    .conoce-mas>.capa>p {
+        font-size: 15px;
+        margin-bottom: 25px;
+        margin-top: 11px;
+        line-height: 17.5px;
+    }
+
+    .conoce-mas>.capa>.button {
+        width: 220px;
+        height: 30px;
+        font-size: 14.5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cuanto-cuesta {
+        height: 520px;
+    }
+
+    .capa-cuanto {
+        height: 570px;
+    }
+
+    .capa-cuanto>div {
+        height: 410px;
+    }
+
+    .capa-cuanto>div h1 {
+        font-size: 43px;
+        margin: 42px;
+    }
+
+    .capa-cuanto>div p {
+        font-size: 14.4px;
+        line-height: 17px;
+    }
+
+    .capa-cuanto .button {
+        width: 125px;
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    .libro-descripcion {
+        height: 320px;
+        line-height: 18px;
+    }
+
+    .libro-descripcion>div {
+        font-size: 14.4px;
+        margin-bottom: 55px;
+    }
+
+    .imp-libro {
+        width: 153px;
+        height: 240px;
+        margin-left: 20px;
+        margin-right: 25px;
+    }
+
+    .semanas>h2 {
+        font-size: 14.3px;
+        margin-right: 19px;
+    }
+
+    .lo-incuestionable {
+        height: 379px;
+        box-shadow: 10px 10px 30px 200px #000226a1 inset;
+    }
+
+    .lo-incuestionable>.capa>div {
+        height: 265px;
+        margin-right: 10px;
+    }
+
+    .lo-incuestionable>.capa>i {
+        margin: 25px;
+        font-size: 31px;
+    }
+
+    .lo-incuestionable>.capa>div h3 {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+
+    .lo-incuestionable>.capa>div p {
+        font-size: 14.3px;
+        margin-top: 28px;
+        line-height: 16px;
+    }
+
+    .lo-incuestionable>.capa .button {
+        width: 135px;
+        height: 30px;
+        font-size: 14.5px;
+        margin-top: 35px;
+        margin-right: 8px;
+    }
+
+    .conoce-mas {
+        height: 270px;
     }
 
     .conoce-mas>.capa>h2 {

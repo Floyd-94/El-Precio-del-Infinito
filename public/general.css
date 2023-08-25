@@ -15,13 +15,14 @@ h1 {
     font-weight: 500;
 }
 
-header {
+.header {
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    background: #202020;
 }
 
 .logoHorizontal {
@@ -39,10 +40,8 @@ header {
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: black;
-    color: white;
+    background: rgba(0, 2, 38, 1);
     list-style: none;
-    padding-top: 4rem;
 }
 
 .showMenu {
@@ -51,6 +50,21 @@ header {
 
 nav>i {
     font-size: 20px;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+li{
+    height: 40px;
+    background-color: #202020;
+    border-bottom: 1px solid rgba(132, 132, 132, 1);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .hamburguesita, .cerrar {
@@ -109,7 +123,7 @@ footer>a {
 }
 
 @media (min-width: 360px) {
-    header {
+    .header {
         height: 54px;
     }
 
@@ -121,8 +135,15 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 10px;
         font-size: 22px;
+    }
+    
+    .menuItem {
+        margin-left: 10px;
+    }
+    
+    li{
+        height: 42px;
     }
 
     footer {
@@ -147,7 +168,7 @@ footer>a {
 }
 
 @media (min-width: 410px) {
-    header {
+    .header {
         height: 61.5px;
     }
 
@@ -159,8 +180,15 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 12px;
         font-size: 25px;
+    }
+    
+    .menuItem {
+        margin-left: 10px;
+    }
+    
+    li{
+        height: 45px;
     }
 
     footer {
@@ -184,7 +212,7 @@ footer>a {
 }
 
 @media (min-width: 460px) {
-    header {
+    .header {
         height: 67px;
     }
 
@@ -196,8 +224,15 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 15px;
         font-size: 28px;
+    }
+    
+    .menuItem {
+        margin-left: 10px;
+    }
+    
+    li{
+        height: 48px;
     }
 
     footer {
@@ -221,7 +256,7 @@ footer>a {
 }
 
 @media (min-width: 510px) {
-    header {
+    .header {
         height: 75px;
     }
 
@@ -233,8 +268,16 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 15px;
         font-size: 33px;
+    }
+    
+    .menuItem {
+        margin-left: 15px;
+    }
+    
+    li{
+        height: 50px;
+        font-size: 18px;
     }
 
     footer {
@@ -258,7 +301,7 @@ footer>a {
 }
 
 @media (min-width: 560px) {
-    header {
+    .header {
         height: 83px;
     }
 
@@ -269,8 +312,16 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 15px;
         font-size: 33px;
+    }
+
+    .menuItem {
+        margin-left: 15px;
+    }
+    
+    li{
+        height: 60px;
+        font-size: 19px;
     }
 
     footer {
@@ -294,7 +345,7 @@ footer>a {
 }
 
 @media (min-width: 610px) {
-    header {
+    .header {
         height: 90px;
     }
 
@@ -305,12 +356,20 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 20px;
         font-size: 37px;
     }
 
     footer {
         height: 278px;
+    }
+
+    .menuItem {
+        margin-left: 15px;
+    }
+    
+    li{
+        height: 60px;
+        font-size: 20px;
     }
 
     .logoVertical {
@@ -330,7 +389,7 @@ footer>a {
 }
 
 @media (min-width: 660px) {
-    header {
+    .header {
         height: 98px;
     }
 
@@ -341,8 +400,16 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 23px;
         font-size: 39px;
+    }
+
+    .menuItem {
+        margin-left: 15px;
+    }
+    
+    li{
+        height: 60px;
+        font-size: 21px;
     }
 
     footer {
@@ -366,7 +433,7 @@ footer>a {
 }
 
 @media (min-width: 800px) {
-    header {
+    .header {
         height: 110px;
     }
 
@@ -377,10 +444,18 @@ footer>a {
     }
 
     nav>i {
-        margin-right: 25px;
         font-size: 40px;
     }
 
+    .menuItem {
+        margin-left: 25px;
+    }
+    
+    li{
+        height: 60px;
+        font-size: 21px;
+    }
+    
     footer {
         height: 380px;
     }

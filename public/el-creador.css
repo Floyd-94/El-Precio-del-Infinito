@@ -133,9 +133,6 @@ main {
 
 .influencias h3 {
     width: 254px;
-    height: 15px;
-    background-color: rgba(30, 144, 255, 1);
-    font-family: 'Montserrat', sans-serif;
     font-size: 6px;
     display: flex;
     flex-direction: column;

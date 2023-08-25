@@ -22,6 +22,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="el-creador.css">
+    <link rel="stylesheet" href="proyecto.css">
 </head>
 
 <body>
@@ -30,15 +31,15 @@
             <img class="logoHorizontal" src="Media/logoHorizontal.png" alt="logo horizontal">
         </a>
         <ul class="menu">
-            <li><a class="menuItem" href="#">HOME</a></li>
-            <li><a class="menuItem" href="#">TIENDA</a></li>
-            <li><a class="menuItem" href="#">EL PRECIO DEL INFINITO</a></li>
-            <li><a class="menuItem" href="#">EL GRAN LIENZO</a></li>
-            <li><a class="menuItem" href="#">EL CREADOR</a></li>
+            <li><a class="menuItem" href="index.html">HOME</a></li>
+            <li><a class="menuItem" href="tienda-compra.html">TIENDA</a></li>
+            <li><a class="menuItem" href="el-precio-del-infinito.html">EL PRECIO DEL INFINITO</a></li>
+            <li><a class="menuItem" href="proyecto.html">EL GRAN LIENZO</a></li>
+            <li><a class="menuItem" href="el-creador.html">EL CREADOR</a></li>
         </ul>
         <nav>
             <i class="fa-sharp fa-solid fa-bars hamburguesita" style="color: #848484;"></i>
-            <i class="fa-solid fa-xmark cerrar" style="color: #848484;"></i>
+            <i class="fa-sharp fa-solid fa-bars cerrar" style="color: #848484;"></i>
         </nav>
     </header>
     <main>
@@ -102,20 +103,38 @@
                     Algunas obras que inspiraron el Gran Lienzo
                 </p>
             </div>
-            <div>
-                <h3>LITERATURA</h3>
-                <p class="influencia-p">
+            <div class="cinco">
+                <div class="contienecolapso">
+                    <h3 class="text-shadow">LITERATURA</h3>
+                    <i class="fa-solid fa-sort-down boton-abrir-desplegable" style="color:rgba(160, 192, 239, 1);"></i>
+                    <i class="fa-solid fa-sort-up boton-cerrar-desplegable" style="color:rgba(160, 192, 239, 1);"></i>
+                </div>
+                <p class="contenido-colapsable">
                     El Señor de los Anillos, Ficciones, La broma infinita, El rey pálido, El corazón<br> helado, La
                     maravillosa vida breve de Oscar Wao, Gomorra, El ingenioso hidalgo <br>Don Quijote de la Mancha,
                     Kalpa
                     Imperial
                 </p>
             </div>
-            <div>
-                <h3>CINE</h3>
+            <div class="cinco">
+                <div class="contienecolapso">
+                    <h3 class="text-shadow">CINE</h3>
+                    <i class="fa-solid fa-sort-down boton-abrir-desplegable" style="color:rgba(160, 192, 239, 1);"></i>
+                    <i class="fa-solid fa-sort-up boton-cerrar-desplegable" style="color:rgba(160, 192, 239, 1);"></i>
+                </div>
+                <p class="contenido-colapsable">
+                    ...
+                </p>
             </div>
-            <div>
-                <h3>COMIC</h3>
+            <div class="cinco">
+                <div class="contienecolapso">
+                    <h3 class="text-shadow">COMIC</h3>
+                    <i class="fa-solid fa-sort-down boton-abrir-desplegable" style="color:rgba(160, 192, 239, 1);"></i>
+                    <i class="fa-solid fa-sort-up boton-cerrar-desplegable" style="color:rgba(160, 192, 239, 1);"></i>
+                </div>
+                <p class="contenido-colapsable">
+                    ...
+                </p>
             </div>
 
         </div>
@@ -128,6 +147,7 @@
         <a href="el-creador.html"> EL CREADOR</a>
     </footer>
     <script src="general.js"></script>
+    <script src="proyecto.js"></script>
 </body>
 
 </html>
