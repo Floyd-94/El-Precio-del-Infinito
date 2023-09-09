@@ -1,6 +1,7 @@
 .comprar {
     width: 100%;
     height: 200px;
+    margin-top: 50px;
     background-image: url("Media/coverMobile.png");
     background-position: center;
     background-size: cover;
@@ -103,7 +104,6 @@
     align-items: center;
     color: rgba(32, 32, 32, 1);
     justify-content: space-around;
-
 }
 
 .lienzo>.capa>h2 {
@@ -166,6 +166,7 @@
 @media (min-width: 360px) {
     .comprar {
         height: 220px;
+        margin-top: 54px;
     }
 
     .comprar>.capa>h1 {
@@ -246,6 +247,7 @@
 @media (min-width: 410px) {
     .comprar {
         height: 250px;
+        margin-top: 61.5px;
     }
 
     .comprar>.capa>h1 {
@@ -327,6 +329,7 @@
 @media (min-width: 460px) {
     .comprar {
         height: 280px;
+        margin-top: 67px;
     }
 
     .comprar>.capa>h1 {
@@ -408,6 +411,7 @@
 @media (min-width: 510px) {
     .comprar {
         height: 310px;
+        margin-top: 75px;
     }
 
     .comprar>.capa>h1 {
@@ -490,6 +494,7 @@
 @media (min-width: 560px) {
     .comprar {
         height: 341px;
+        margin-top: 83px;
     }
 
     .comprar>.capa>h1 {
@@ -572,6 +577,7 @@
 @media (min-width: 610px) {
     .comprar {
         height: 373px;
+        margin-top: 90px;
     }
 
     .comprar>.capa>h1 {

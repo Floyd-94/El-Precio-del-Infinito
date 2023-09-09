@@ -1,23 +1,24 @@
 .entra {
     width: 100%;
     height: 200px;
+    margin-top: 50px;
     background-image: url("Media/mundoMobile.png");
     background-position: center;
     background-size: cover;
-    background-position: 8px 0px;
+    background-position: 5px 0px;
     position: relative;
 }
 
 .entra>.capa {
     width: 100%;
-    height: 200px;
+    height: 100%;
     background-color: rgba(205, 206, 206, 0.582);
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: rgba(32, 32, 32, 1);
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .entra>.capa>h1 {
@@ -25,13 +26,15 @@
     font-size: 20px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 25px;
+    margin-top: 10px;
 }
 
 .entra>.capa>p {
     font-size: 8px;
     text-align: center;
     line-height: 9.72px;
+    margin-bottom: 25px;
+    font-weight: bold;
 }
 
 .entregado {
@@ -45,7 +48,7 @@
 
 .entregado>.capa {
     width: 100%;
-    height: 207px;
+    height: 100%;
     background: linear-gradient(180deg, #000008 1%, rgba(0, 2, 38, 0.597) 8%, rgb(0, 2, 38) 100%);
     position: absolute;
     display: flex;
@@ -83,23 +86,29 @@
     font-size: 7px;
 }
 
-.serie>.flores>img {
+.flores {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flores>img {
     width: 184px;
     height: 127px;
-
 }
 
 .proyectos {
     width: 100%;
-    height: 361px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.786) 1%, rgba(74, 81, 217, 1) 6%, rgba(74, 81, 217, 1) 100%);
+    height: 400px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.786) 1%, rgba(74, 81, 217, 1) 4%, rgba(74, 81, 217, 1) 100%);
     position: relative;
 }
 
 .proyectos>.capa {
     width: 100%;
-    height: 361px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.786) 1%, rgba(74, 81, 217, 1) 6%, rgba(74, 81, 217, 0) 100%);
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.786) 1%, rgba(74, 81, 217, 1) 4%, rgba(74, 81, 217, 0) 100%);
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -107,13 +116,23 @@
     justify-content: space-evenly;
 }
 
-.proyectos>.capa>h3 {
-    font-family: 'EB Garamond', serif;
-    font-size: 14px;
+.primerTexto-capa {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.proyectos>.capa>p {
+.proyectos>.capa>.primerTexto-capa h3 {
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.proyectos>.capa>.primerTexto-capa>p {
     font-size: 8px;
+    margin-top: 10px;
 }
 
 .proyectos>.capa>.fechas {
@@ -126,8 +145,14 @@
 .proyectos>.capa>.fechas>h2 {
     font-size: 8px;
     text-align: center;
-    margin: 5px auto;
+    margin-bottom: 5px;
+    margin-top: 10px;
     font-weight: 400;
+}
+
+.proyectos>.capa>p {
+    font-size: 7px;
+    font-style: italic;
 }
 
 .cinco {
@@ -149,18 +174,6 @@
 .contenido-colapsable.desplegar {
     max-height: 100px;
     margin-top: 5px;
-
-}
-
-.proyectos>.capa>.fechas h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 6px;
-    text-align: center;
-
-}
-
-.proyectos>.capa>.fechas i {
-    font-size: 10px;
 }
 
 .boton-cerrar-desplegable {
@@ -170,7 +183,20 @@
 .contenido-colapsable {
     max-height: 0px;
     overflow: hidden;
-    transition: 1s;
+    transition: 0.3s;
+}
+
+.cinco i {
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.fa-sort-down {
+    margin-bottom: 3px;
+}
+
+.fa-sort-up {
+    margin-top: 7px;
 }
 
 .cinco p {
@@ -182,6 +208,17 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+.cinco h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11px;
 }
 
 .ayudar-proyecto {
@@ -196,7 +233,7 @@
 
 .ayudar-proyecto>.capa {
     width: 100%;
-    height: 134px;
+    height: 100%;
     background-color: rgba(205, 206, 206, 0.582);
     position: absolute;
     display: flex;
@@ -225,4 +262,273 @@
     width: 83px;
     height: 15px;
     font-size: 7px;
+}
+
+@media (min-width: 360px) {
+
+    .entra {
+        height: 225px;
+        margin-top: 54px;
+    }
+
+    .entra>.capa>h1 {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+
+    .entra>.capa>p {
+        font-size: 9px;
+        text-align: center;
+        line-height: 9.72px;
+        margin-bottom: 30px;
+    }
+
+    .entregado {
+        height: 230px;
+    }
+
+    .entregado>.capa>p {
+        width: 207px;
+        font-size: 8.1px;
+        line-height: 10px;
+    }
+
+    .serie {
+        width: 100%;
+        height: 398px;
+    }
+
+    .serie>h3 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .serie>p {
+        width: 207px;
+        font-size: 8.1px;
+        line-height: 10px;
+    }
+
+    .flores {
+        width: 100%;
+    }
+
+    .flores>img {
+        width: 184px;
+        height: 127px;
+    }
+
+    .proyectos {
+        width: 100%;
+        height: 440px;
+    }
+
+    .primerTexto-capa {
+        height: 50px;
+    }
+
+    .proyectos>.capa>.primerTexto-capa h3 {
+        font-size: 17px;
+        margin-top: 10px
+    }
+
+    .proyectos>.capa>.primerTexto-capa p {
+        font-size: 10px;
+    }
+
+    .proyectos>.capa>.fechas {
+        width: 284px;
+    }
+
+    .proyectos>.capa>.fechas>h2 {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .cinco>.contienecolapso {
+        height: 15px;
+    }
+
+    .contenido-colapsable.desplegar {
+        max-height: 100px;
+        margin-top: 10px;
+    }
+
+    .cinco i {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .fa-sort-down {
+        margin-bottom: 4px;
+    }
+
+    .fa-sort-up {
+        margin-top: 6px;
+    }
+
+    .cinco p {
+        width: 240px;
+        height: 30px;
+        font-size: 7.8px;
+    }
+
+    .cinco h3 {
+        font-size: 7px;
+        margin-left: 11px;
+    }
+
+    .ayudar-proyecto {
+        height: 145px;
+    }
+
+    .ayudar-proyecto>.capa>h2 {
+        font-size: 9px;
+        line-height: 10px;
+        margin-top: 15px;
+    }
+
+    .ayudar-proyecto>.capa>p {
+        font-size: 8px;
+        line-height: 8.5px;
+    }
+
+    .ayudar-proyecto>.capa>.button {
+        width: 87px;
+        font-size: 7.5px;
+    }
+}
+
+@media (min-width: 410px) {
+
+    .entra {
+        height: 265px;
+        margin-top: 54px;
+    }
+
+    .entra>.capa>h1 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .entra>.capa>p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 30px;
+    }
+
+    .entregado {
+        height: 250px;
+    }
+
+    .entregado>.capa>p {
+        width: 217px;
+        font-size: 8.1px;
+        line-height: 10px;
+    }
+
+    .serie {
+        width: 100%;
+        height: 398px;
+    }
+
+    .serie>h3 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .serie>p {
+        width: 207px;
+        font-size: 8.1px;
+        line-height: 10px;
+    }
+
+    .flores {
+        width: 100%;
+    }
+
+    .flores>img {
+        width: 184px;
+        height: 127px;
+    }
+
+    .proyectos {
+        width: 100%;
+        height: 440px;
+    }
+
+    .primerTexto-capa {
+        height: 50px;
+    }
+
+    .proyectos>.capa>.primerTexto-capa h3 {
+        font-size: 17px;
+        margin-top: 10px
+    }
+
+    .proyectos>.capa>.primerTexto-capa p {
+        font-size: 10px;
+    }
+
+    .proyectos>.capa>.fechas {
+        width: 284px;
+    }
+
+    .proyectos>.capa>.fechas>h2 {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .cinco>.contienecolapso {
+        height: 15px;
+    }
+
+    .contenido-colapsable.desplegar {
+        max-height: 100px;
+        margin-top: 10px;
+    }
+
+    .cinco i {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .fa-sort-down {
+        margin-bottom: 4px;
+    }
+
+    .fa-sort-up {
+        margin-top: 6px;
+    }
+
+    .cinco p {
+        width: 240px;
+        height: 30px;
+        font-size: 7.8px;
+    }
+
+    .cinco h3 {
+        font-size: 7px;
+        margin-left: 11px;
+    }
+
+    .ayudar-proyecto {
+        height: 145px;
+    }
+
+    .ayudar-proyecto>.capa>h2 {
+        font-size: 9px;
+        line-height: 10px;
+        margin-top: 15px;
+    }
+
+    .ayudar-proyecto>.capa>p {
+        font-size: 8px;
+        line-height: 8.5px;
+    }
+
+    .ayudar-proyecto>.capa>.button {
+        width: 87px;
+        font-size: 7.5px;
+    }
 }

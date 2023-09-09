@@ -21,8 +21,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     background: #202020;
+    z-index: 1;
+    position: fixed;
+    top: 0;
 }
 
 .logoHorizontal {
@@ -40,12 +42,22 @@ h1 {
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: rgba(0, 2, 38, 1);
     list-style: none;
+}
+
+.navBar {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #202020;
 }
 
 .showMenu {
     transform: translateY(0);
+    height: fit-content;
 }
 
 nav>i {
@@ -58,7 +70,7 @@ nav>i {
     margin-left: 10px;
 }
 
-li{
+li {
     height: 40px;
     background-color: #202020;
     border-bottom: 1px solid rgba(132, 132, 132, 1);
@@ -67,11 +79,12 @@ li{
     align-content: center;
 }
 
-.hamburguesita, .cerrar {
+.hamburguesita,
+.cerrar {
     position: fixed;
     z-index: 100;
     height: 50px;
-    right: 20px;
+    right: 15px;
     margin-top: -10px;
     cursor: pointer;
 }
@@ -123,7 +136,9 @@ footer>a {
 }
 
 @media (min-width: 360px) {
-    .header {
+
+    .header,
+    .navBar {
         height: 54px;
     }
 
@@ -137,12 +152,12 @@ footer>a {
     nav>i {
         font-size: 22px;
     }
-    
+
     .menuItem {
         margin-left: 10px;
     }
-    
-    li{
+
+    li {
         height: 42px;
     }
 
@@ -168,7 +183,9 @@ footer>a {
 }
 
 @media (min-width: 410px) {
-    .header {
+
+    .header,
+    .navBar {
         height: 61.5px;
     }
 
@@ -182,12 +199,17 @@ footer>a {
     nav>i {
         font-size: 25px;
     }
-    
+
     .menuItem {
         margin-left: 10px;
     }
-    
-    li{
+
+    .hamburguesita,
+    .cerrar {
+        margin-top: -11px;
+    }
+
+    li {
         height: 45px;
     }
 
@@ -212,7 +234,9 @@ footer>a {
 }
 
 @media (min-width: 460px) {
-    .header {
+
+    .header,
+    .navBar {
         height: 67px;
     }
 
@@ -226,12 +250,17 @@ footer>a {
     nav>i {
         font-size: 28px;
     }
-    
+
     .menuItem {
         margin-left: 10px;
     }
-    
-    li{
+
+    .hamburguesita,
+    .cerrar {
+        margin-top: -12px;
+    }
+
+    li {
         height: 48px;
     }
 
@@ -256,7 +285,9 @@ footer>a {
 }
 
 @media (min-width: 510px) {
-    .header {
+
+    .header,
+    .navBar {
         height: 75px;
     }
 
@@ -270,14 +301,19 @@ footer>a {
     nav>i {
         font-size: 33px;
     }
-    
+
     .menuItem {
         margin-left: 15px;
     }
-    
-    li{
+
+    li {
         height: 50px;
         font-size: 18px;
+    }
+
+    .hamburguesita,
+    .cerrar {
+        margin-top: -14px;
     }
 
     footer {
@@ -301,7 +337,9 @@ footer>a {
 }
 
 @media (min-width: 560px) {
-    .header {
+
+    .header,
+    .navBar {
         height: 83px;
     }
 
@@ -318,10 +356,15 @@ footer>a {
     .menuItem {
         margin-left: 15px;
     }
-    
-    li{
+
+    li {
         height: 60px;
         font-size: 19px;
+    }
+
+    .hamburguesita,
+    .cerrar {
+        margin-top: -16px;
     }
 
     footer {
@@ -345,7 +388,9 @@ footer>a {
 }
 
 @media (min-width: 610px) {
-    .header {
+
+    .header,
+    .navBar {
         height: 90px;
     }
 
@@ -366,10 +411,15 @@ footer>a {
     .menuItem {
         margin-left: 15px;
     }
-    
-    li{
+
+    li {
         height: 60px;
         font-size: 20px;
+    }
+
+    .hamburguesita,
+    .cerrar {
+        margin-top: -18px;
     }
 
     .logoVertical {
@@ -389,9 +439,7 @@ footer>a {
 }
 
 @media (min-width: 660px) {
-    .header {
-        height: 98px;
-    }
+
 
     .logoHorizontal {
         width: 253px;
@@ -406,10 +454,15 @@ footer>a {
     .menuItem {
         margin-left: 15px;
     }
-    
-    li{
+
+    li {
         height: 60px;
         font-size: 21px;
+    }
+
+    .hamburguesita,
+    .cerrar {
+        margin-top: -20px;
     }
 
     footer {
@@ -433,14 +486,11 @@ footer>a {
 }
 
 @media (min-width: 800px) {
-    .header {
-        height: 110px;
-    }
 
     .logoHorizontal {
-        width: 250px;
-        height: 60px;
-        margin-left: 25px;
+        width: 253px;
+        height: 51px;
+        margin-left: 15px;
     }
 
     nav>i {
@@ -450,12 +500,12 @@ footer>a {
     .menuItem {
         margin-left: 25px;
     }
-    
-    li{
+
+    li {
         height: 60px;
         font-size: 21px;
     }
-    
+
     footer {
         height: 380px;
     }

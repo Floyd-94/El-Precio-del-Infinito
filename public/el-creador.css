@@ -5,6 +5,7 @@ main {
 .presentacion {
     width: 100%;
     height: 202px;
+    margin-top: 50px;
     background-image: url("Media/jonMobile.png");
     background-position: -1px -12px;
     background-size: 340px;
@@ -131,14 +132,7 @@ main {
     font-weight: bolder;
 }
 
-.influencias h3 {
-    width: 254px;
-    font-size: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .influencias .influencia-p {
     width: 254px;
