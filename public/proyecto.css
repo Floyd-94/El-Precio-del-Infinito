@@ -73,23 +73,27 @@
     align-items: center;
 }
 
-.serie>h2,h3 {
+.serie>.titulo h2,
+h3 {
     font-family: 'EB Garamond', serif;
     font-size: 14px;
+    font-weight: 400;
+    margin: 5px;
+    text-align: center;
 }
 
 .serie>p {
     width: 184px;
-    height: 108px;
     font-size: 7px;
 }
 
 .slider {
     width: 100%;
     max-width: 800px;
-    height: 140px;
+    height: 150px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
 .slide {
@@ -98,7 +102,6 @@
     height: 100%;
     position: absolute;
     transition: all 0.5s;
-
 }
 
 .slide img {
@@ -113,11 +116,10 @@
     margin: 3px;
 }
 
-
 .btn {
     position: absolute;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .btn:active {
@@ -331,27 +333,45 @@
 
     .serie {
         width: 100%;
-        height: 398px;
+        height: 410px;
     }
 
-    .serie>h3 {
+    .serie>.titulo h2,
+    h3 {
         font-size: 17px;
         margin-top: 10px;
     }
 
     .serie>p {
         width: 207px;
+        font-size: 8px;
+    }
+
+    .slider {
+        height: 155px;
+    }
+
+    .slide img {
+        width: 200px;
+    }
+
+    .slide p {
         font-size: 8.1px;
-        line-height: 10px;
+        text-align: center;
     }
 
-    .flores {
-        width: 100%;
+    .btn {
+        font-size: 16px;
     }
 
-    .flores>img {
-        width: 184px;
-        height: 127px;
+    .btn-prev {
+        top: 45%;
+        left: 15px;
+    }
+
+    .btn-next {
+        top: 45%;
+        right: 15px;
     }
 
     .proyectos {
@@ -458,34 +478,204 @@
     }
 
     .entregado>.capa>p {
-        width: 217px;
-        font-size: 8.1px;
-        line-height: 10px;
+        width: 230px;
+        font-size: 9px;
+        line-height: 10.8px;
     }
 
     .serie {
         width: 100%;
-        height: 398px;
+        height: 460px;
     }
 
-    .serie>h3 {
-        font-size: 17px;
+    .serie>.titulo h2,
+    h3 {
+        font-size: 19px;
         margin-top: 10px;
     }
 
     .serie>p {
-        width: 207px;
+        width: 230px;
+        font-size: 9px;
+    }
+
+    .slider {
+        height: 180px;
+    }
+
+    .slide img {
+        width: 230px;
+    }
+
+    .slide p {
         font-size: 8.1px;
-        line-height: 10px;
+        text-align: center;
     }
 
-    .flores {
+    .btn {
+        font-size: 16px;
+    }
+
+    .btn-prev {
+        top: 45%;
+        left: 15px;
+    }
+
+    .btn-next {
+        top: 45%;
+        right: 15px;
+    }
+
+    .proyectos {
         width: 100%;
+        height: 440px;
     }
 
-    .flores>img {
-        width: 184px;
-        height: 127px;
+    .primerTexto-capa {
+        height: 50px;
+    }
+
+    .proyectos>.capa>.primerTexto-capa h3 {
+        font-size: 17px;
+        margin-top: 10px
+    }
+
+    .proyectos>.capa>.primerTexto-capa p {
+        font-size: 10px;
+    }
+
+    .proyectos>.capa>.fechas {
+        width: 284px;
+    }
+
+    .proyectos>.capa>.fechas>h2 {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .cinco>.contienecolapso {
+        height: 15px;
+    }
+
+    .contenido-colapsable.desplegar {
+        max-height: 100px;
+        margin-top: 10px;
+    }
+
+    .cinco i {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .fa-sort-down {
+        margin-bottom: 4px;
+    }
+
+    .fa-sort-up {
+        margin-top: 6px;
+    }
+
+    .cinco p {
+        width: 240px;
+        height: 30px;
+        font-size: 7.8px;
+    }
+
+    .cinco h3 {
+        font-size: 7px;
+        margin-left: 11px;
+    }
+
+    .ayudar-proyecto {
+        height: 145px;
+    }
+
+    .ayudar-proyecto>.capa>h2 {
+        font-size: 9px;
+        line-height: 10px;
+        margin-top: 15px;
+    }
+
+    .ayudar-proyecto>.capa>p {
+        font-size: 8px;
+        line-height: 8.5px;
+    }
+
+    .ayudar-proyecto>.capa>.button {
+        width: 87px;
+        font-size: 7.5px;
+    }
+}
+
+@media (min-width: 460px) {
+
+    .entra {
+        height: 265px;
+        margin-top: 54px;
+    }
+
+    .entra>.capa>h1 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .entra>.capa>p {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 30px;
+    }
+
+    .entregado {
+        height: 250px;
+    }
+
+    .entregado>.capa>p {
+        width: 230px;
+        font-size: 9px;
+        line-height: 10.8px;
+    }
+
+    .serie {
+        width: 100%;
+        height: 460px;
+    }
+
+    .serie>.titulo h2,
+    h3 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    .serie>p {
+        width: 230px;
+        font-size: 9px;
+    }
+
+    .slider {
+        height: 180px;
+    }
+
+    .slide img {
+        width: 230px;
+    }
+
+    .slide p {
+        font-size: 8.1px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .btn-prev {
+        top: 45%;
+        left: 15px;
+    }
+
+    .btn-next {
+        top: 45%;
+        right: 15px;
     }
 
     .proyectos {
