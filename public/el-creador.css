@@ -8,7 +8,7 @@ main {
     margin-top: 50px;
     background-image: url("Media/jonMobile.png");
     background-position: -1px -12px;
-    background-size: 340px;
+    background-size: cover;
     position: relative;
 }
 
@@ -35,7 +35,6 @@ main {
     font-size: 6px;
     font-weight: bolder;
     text-align: center;
-    font-weight: bolder;
     line-height: 7.31px;
     margin-bottom: 20px;
 }
@@ -78,15 +77,6 @@ main {
     align-content: stretch;
 }
 
-.cartas {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: stretch;
-}
-
 .cardBox {
     float: left;
     margin: 9px;
@@ -96,7 +86,7 @@ main {
     justify-content: space-evenly;
     align-content: stretch;
     perspective: 800px;
- 
+
 }
 
 .cardBox:hover .card {
@@ -207,7 +197,92 @@ main {
     font-weight: bolder;
 }
 
-#seis p{
+#seis p {
     height: 60px;
 }
 
+@media (min-width: 360px) {
+
+    .presentacion {
+        height: 202px;
+        margin-top: 50px;
+        background-position: -1px -12px;
+    }
+
+    .presentacion>.capa>h1 {
+        font-size: 12px;
+        line-height: 14.88px;
+    }
+
+    .presentacion>.capa>p {
+        font-size: 6px;
+        line-height: 7.31px;
+        margin-bottom: 20px;
+    }
+
+    .la-mano {
+        height: 760px;
+    }
+
+    .la-mano>h2 {
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .la-mano>p {
+        height: 50px;
+        font-size: 8px;
+    }
+
+    .cardBox {
+        margin: 9px;
+        perspective: 800px;
+    }
+
+    .card {
+        height: 190px;
+        width: 120px;
+    }
+
+    .front,
+    .back {
+        font-size: 7px;
+        height: 100%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .front h3 {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 12px;
+    }
+
+    .back p {
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 11px;
+    }
+
+    .influencias {
+        height: 350px;
+    }
+
+    .influencia {
+        height: 50px;
+        margin: 15px;
+    }
+
+    .influencias .influencia>h2 {
+        font-size: 8px;
+        font-weight: 600;
+    }
+
+    .influencias .influencia p {
+        font-size: 6px;
+    }
+
+    #seis p {
+        height: 60px;
+    }
+}
