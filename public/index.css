@@ -15,6 +15,8 @@
 
 }
 
+
+
 .comprar>.capa {
     width: 100%;
     height: 100%;
@@ -834,7 +836,8 @@
 @media (min-width: 1000px) {
     .comprar {
         height: 550px;
-        margin-top: 65px;
+        margin-top: 0px;
+        overflow: hidden;
         display: flex;
         justify-content: center;
         background: rgba(0, 2, 38, 1);
