@@ -23,7 +23,7 @@ main {
 }
 
 .indice {
-    height: 120px;
+    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -55,7 +55,7 @@ a {
     }
 
     .indice {
-        height: 125px;
+        height: 310px;
     }
 
     a {
@@ -79,7 +79,7 @@ a {
     }
 
     .indice {
-        height: 140px;
+        height: 330px;
     }
 
     a {
@@ -103,7 +103,7 @@ a {
     }
 
     .indice {
-        height: 160px;
+        height: 350px;
     }
 
     a {
@@ -127,7 +127,7 @@ a {
     }
 
     .indice {
-        height: 175px;
+        height: 400px;
     }
 
     a {

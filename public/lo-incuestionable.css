@@ -21,6 +21,7 @@ main {
     font-size: 12px;
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .titulo>.button {
@@ -29,6 +30,7 @@ main {
     display: flex;
     align-items: center;
     font-size: 7px;
+    margin: 10px;
 }
 
 main p {
@@ -43,8 +45,8 @@ main p {
 @media (min-width: 360px) {
 
     main {
-        height: 800px;
         margin-top: 54px;
+        margin-bottom: 30px;
     }
 
     .titulo {
@@ -72,8 +74,8 @@ main p {
 @media (min-width: 410px) {
 
     main {
-        height: 800px;
         margin-top: 61.5px;
+        margin-bottom: 40px;
     }
 
     .titulo {
@@ -101,8 +103,8 @@ main p {
 @media (min-width: 460px) {
 
     main {
-        height: 800px;
         margin-top: 67px;
+        margin-bottom: 45px;
     }
 
     .titulo {
@@ -130,8 +132,8 @@ main p {
 @media (min-width: 510px) {
 
     main {
-        height: 800px;
         margin-top: 75px;
+        margin: 55px;
     }
 
     .titulo {
@@ -159,8 +161,8 @@ main p {
 @media (min-width: 560px) {
 
     main {
-        height: 800px;
         margin-top: 83px;
+        margin-bottom: 55px;
     }
 
     .titulo {
@@ -188,8 +190,8 @@ main p {
 @media (min-width: 610px) {
 
     main {
-        height: 800px;
         margin-top: 90px;
+        margin-bottom: 65px;
     }
 
     .titulo {
@@ -217,7 +219,8 @@ main p {
 @media (min-width: 660px) {
 
     main {
-        height: 800px;
+        margin-top: 95px;
+        margin-bottom: 70px;
     }
 
     .titulo {

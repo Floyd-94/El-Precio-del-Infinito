@@ -319,13 +319,13 @@ h3 {
     }
 
     .entregado {
-        height: 230px;
+        height: 294px
     }
 
     .entregado>.capa>p {
-        width: 207px;
-        font-size: 8.1px;
-        line-height: 10px;
+        width: 266px;
+        font-size: 10.4px;
+        line-height: 13px;
     }
 
     .serie {
@@ -340,9 +340,9 @@ h3 {
     }
 
     .serie>p {
-        width: 207px;
+        width: 266px;
         font-size: 8px;
-        line-height: 10px;
+        line-height: 13px;
     }
 
     .slider {
@@ -350,7 +350,7 @@ h3 {
     }
 
     .slide img {
-        width: 200px;
+        width: 266px;
     }
 
     .slide p {
@@ -359,22 +359,22 @@ h3 {
     }
 
     .btn {
-        font-size: 16px;
+        font-size: 30px;
     }
 
     .btn-prev {
-        top: 45%;
-        left: 15px;
+        top: 40%;
+        left: 20px;
     }
 
     .btn-next {
-        top: 45%;
-        right: 15px;
+        top: 40%;
+        right: 20px;
     }
 
     .proyectos {
         width: 100%;
-        height: 500px;
+        height: 600px;
     }
 
     .primerTexto-capa {
