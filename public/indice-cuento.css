@@ -1,7 +1,6 @@
 main {
     width: 100%;
     height: 419px;
-    margin-top: 50px;
     position: relative;
     width: 100%;
     background-color: rgba(0, 2, 38, 1);
@@ -42,7 +41,6 @@ a {
 
     main {
         height: 470px;
-        margin-top: 54px;
     }
 
     .titulo {
@@ -67,7 +65,6 @@ a {
 
     main {
         height: 515px;
-        margin-top: 61.5px;
     }
 
     .titulo {
@@ -91,7 +88,6 @@ a {
 
     main {
         height: 580px;
-        margin-top: 67px;
     }
 
     .titulo {
@@ -115,7 +111,6 @@ a {
 
     main {
         height: 600px;
-        margin-top: 75px;
     }
 
     .titulo {
@@ -139,7 +134,6 @@ a {
 
     main {
         height: 610px;
-        margin-top: 83px;
     }
 
     .titulo {
@@ -163,7 +157,6 @@ a {
 
     main {
         height: 610px;
-        margin-top: 90px;
     }
 
     .titulo {

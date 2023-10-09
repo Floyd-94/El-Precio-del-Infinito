@@ -5,7 +5,6 @@ main {
 .presentacion {
     width: 100%;
     height: 188px;
-    margin-top: 50px;
     background-image: url("Media/jonMobile.png");
     background-position: -1px -12px;
     background-size: cover;
@@ -213,7 +212,6 @@ main {
 
     .presentacion {
         height: 202px;
-        margin-top: 50px;
         background-position: -1px -12px;
     }
 
@@ -309,7 +307,6 @@ main {
 
     .presentacion {
         height: 225px;
-        margin-top: 50px;
         background-position: -1px -12px;
     }
 
@@ -405,7 +402,6 @@ main {
 
     .presentacion {
         height: 270px;
-        margin-top: 67px;
         background-position: -1px -12px;
     }
 
