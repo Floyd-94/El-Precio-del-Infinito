@@ -27,13 +27,13 @@ h1 {
     top: 0;
 }
 
-.menu-mobile>.logoHorizontal {
+.menu-mobile .logoHorizontal {
     width: 123px;
     height: 25px;
     margin-left: 10px;
 }
 
-.menu-mobile>.menu {
+.menu-mobile .menu {
     position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
@@ -45,7 +45,7 @@ h1 {
     list-style: none;
 }
 
-.menu-mobile>.navBar {
+.menu-mobile .navBar {
     position: relative;
     width: 100%;
     height: 50px;
@@ -55,22 +55,22 @@ h1 {
     background: #202020;
 }
 
-.menu-mobile>.showMenu {
+.menu-mobile .showMenu {
     transform: translateY(0);
     height: fit-content;
 }
 
-.menu-mobile>nav>i {
+.menu-mobile nav>i {
     font-size: 20px;
 }
 
-.menu-mobile>.menuItem {
+.menu-mobile .menuItem {
     text-decoration: none;
     color: white;
     margin-left: 10px;
 }
 
-.menu-mobile>li {
+.menu-mobile li {
     height: 40px;
     background-color: #202020;
     border-bottom: 1px solid rgba(132, 132, 132, 1);
@@ -79,7 +79,7 @@ h1 {
     align-content: center;
 }
 
-.menu-mobile>.hamburguesita,
+.menu-mobile .hamburguesita,
 .cerrar {
     position: fixed;
     z-index: 100;
@@ -89,7 +89,7 @@ h1 {
     cursor: pointer;
 }
 
-.menu-mobile>.cerrar {
+.menu-mobile .cerrar {
     display: none;
 }
 
