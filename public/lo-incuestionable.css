@@ -236,3 +236,31 @@ main p {
         line-height: 28px;
     }
 }
+
+@media (min-width: 1000px) {
+
+    main {
+        margin-bottom: 70px;
+    }
+
+    .titulo {
+        height: 133px;
+    }
+
+    .titulo>h1 {
+        font-size: 23px;
+    }
+
+    .titulo>.button {
+        width: 85px;
+        height: 23px;
+        font-size: 14px;
+    }
+
+    main p {
+        font-size: 22px;
+        padding: 75px;
+        padding-top: 150px;
+        line-height: 28px;
+    }
+}
