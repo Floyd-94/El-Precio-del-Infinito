@@ -29,7 +29,6 @@ h1 {
 
 .menu-mobile .logoHorizontal {
     width: 123px;
-    height: 25px;
     margin-left: 10px;
 }
 
@@ -152,9 +151,8 @@ footer .footer-mobile {
         height: 54px;
     }
 
-    .logoHorizontal {
+    .menu-mobile .logoHorizontal {
         width: 135px;
-        height: 28px;
         margin-left: 10px;
         margin-top: 5px;
     }
@@ -177,7 +175,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 90px;
-        height: 38px;
         margin-top: 19px;
         margin-bottom: 9px;
     }
@@ -198,9 +195,8 @@ footer .footer-mobile {
         height: 61.5px;
     }
 
-    .logoHorizontal {
+    .menu-mobile .logoHorizontal {
         width: 153px;
-        height: 31px;
         margin-left: 12px;
         margin-top: 7px;
     }
@@ -228,7 +224,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 97px;
-        height: 42px;
         margin-bottom: 10px;
     }
 
@@ -248,9 +243,8 @@ footer .footer-mobile {
         height: 67px;
     }
 
-    .logoHorizontal {
+    .menu-mobile .logoHorizontal {
         width: 172px;
-        height: 35px;
         margin-left: 12px;
         margin-top: 8px;
     }
@@ -278,7 +272,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 105px;
-        height: 50px;
         margin-bottom: 10px;
     }
 
@@ -296,13 +289,6 @@ footer .footer-mobile {
 
     .menu-mobile>.menu>.navBar  {
         height: 75px;
-    }
-
-    .logoHorizontal {
-        width: 190px;
-        height: 37px;
-        margin-left: 14px;
-        margin-top: 9px;
     }
 
     nav>i {
@@ -329,7 +315,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 120px;
-        height: 50px;
         margin-bottom: 10px;
     }
 
@@ -347,12 +332,6 @@ footer .footer-mobile {
 
     .menu-mobile>.menu>.navBar  {
         height: 83px;
-    }
-
-    .logoHorizontal {
-        width: 212px;
-        height: 41.5px;
-        margin-left: 14px;
     }
 
     nav>i {
@@ -379,7 +358,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 129px;
-        height: 55px;
         margin-bottom: 10px;
     }
 
@@ -397,12 +375,6 @@ footer .footer-mobile {
 
     .menu-mobile>.menu>.navBar  {
         height: 90px;
-    }
-
-    .logoHorizontal {
-        width: 230px;
-        height: 46px;
-        margin-left: 15px;
     }
 
     nav>i {
@@ -429,7 +401,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 141px;
-        height: 62px;
         margin-bottom: 10px;
     }
 
@@ -445,11 +416,6 @@ footer .footer-mobile {
 
 @media (min-width: 660px) {
 
-    .menu-mobile .logoHorizontal {
-        width: 253px;
-        height: 51px;
-        margin-left: 15px;
-    }
 
     nav>i {
         font-size: 39px;
@@ -475,7 +441,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 150px;
-        height: 65px;
         margin-bottom: 10px;
     }
 
@@ -491,12 +456,6 @@ footer .footer-mobile {
 
 @media (min-width: 800px) {
 
-    .menu-mobile .logoHorizontal {
-        width: 253px;
-        height: 51px;
-        margin-left: 15px;
-    }
-
     nav>i {
         font-size: 39px;
     }
@@ -521,7 +480,6 @@ footer .footer-mobile {
 
     .footer-mobile .logoVertical {
         width: 150px;
-        height: 65px;
         margin-bottom: 10px;
     }
 
@@ -536,7 +494,7 @@ footer .footer-mobile {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1180px) {
 
     .header>.menu-mobile {
         display: none;
@@ -573,7 +531,6 @@ footer .footer-mobile {
 
     .menu-desktop>ul>a>.logoHorizontal {
         width: 141px;
-        height: 29px;
         margin-left: 0;
         margin-right: 45px;
     }

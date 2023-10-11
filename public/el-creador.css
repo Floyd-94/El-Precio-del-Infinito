@@ -487,9 +487,98 @@ main {
     }
 }
 
+@media (min-width: 800px) {
+
+    .presentacion {
+        height: 520px;
+        background-position: -1px -12px;
+    }
+
+    .presentacion>.capa>h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .presentacion>.capa>p {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 83px;
+    }
+
+    .la-mano {
+        height: 1620px;
+        padding-bottom: 60px;
+    }
+
+    .la-mano>h2 {
+        height: 190px;
+        font-size: 41px;
+    }
+
+    .la-mano>p {
+        height: 184px;
+        font-size: 21px;
+        line-height: 21px;
+    }
+
+    .cardBox {
+        margin: 45px;
+        perspective: 800px;
+    }
+
+    .card {
+        height: 377px;
+        width: 228px;
+    }
+
+    .front,
+    .back {
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .front h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .back p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .influencias {
+        height: 820px;
+    }
+
+    .influencia {
+        height: 200px;
+        margin: 24px;
+    }
+
+    .influencias .influencia>h2 {
+        font-size: 40px;
+    }
+
+    .influencias .influencia p {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .contenedor-cinco {
+        width: 663px;
+        height: 542px;
+        margin-bottom: 40px;
+    }
+
+    #seis p {
+        height: 100px;
+    }
+}
 
 
-@media (min-width: 1000px) {
+
+@media (min-width: 1180px) {
 
     .presentacion {
         width: 1178px;

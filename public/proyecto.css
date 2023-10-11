@@ -755,7 +755,163 @@ h3 {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
+
+    .entra {
+        height: 481px;
+    }
+
+    .entra>.capa>h1 {
+        font-size: 45px;
+        margin-top: 10px;
+    }
+
+    .entra>.capa>p {
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 40px;
+    }
+
+    .entregado {
+        height: 486px;
+    }
+
+    .entregado>.capa>p {
+        width: 435px;
+        font-size: 17px;
+        line-height: 19.5px;
+        margin-bottom: 30px;
+    }
+
+    .serie {
+        width: 100%;
+        height: 900px;
+    }
+
+    .serie>.titulo h2,
+    h3 {
+        font-size: 33px;
+        margin-top: 0px;
+    }
+
+    .serie>p {
+        width: 435px;
+        font-size: 17px;
+        line-height: 19.5px;
+    }
+
+    .slider {
+        height: 350px;
+    }
+
+    .slide img {
+        width: 435px;
+    }
+
+    .slide p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 40px;
+    }
+
+    .btn-prev {
+        top: 36%;
+        left: 36px;
+    }
+
+    .btn-next {
+        top: 36%;
+        right: 36px;
+    }
+
+    .proyectos {
+        width: 100%;
+        height: 500px;
+    }
+
+    .primerTexto-capa {
+        height: 86px;
+    }
+
+    .proyectos>.capa>.primerTexto-capa h3 {
+        font-size: 33px;
+        margin-top: 5px;
+    }
+
+    .proyectos>.capa>.primerTexto-capa p {
+        font-size: 17px;
+    }
+
+    .proyectos>.capa>.fechas {
+        width: 619px;
+    }
+
+    .proyectos>.capa>.fechas>h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .proyectos>.capa>p {
+        font-size: 14px;
+    }
+
+    .cinco>.contienecolapso {
+        height: 32px;
+    }
+
+    .contenido-colapsable.desplegar {
+        max-height: 100px;
+    }
+
+    .cinco i {
+        font-size: 28px;
+        margin-right: 10px;
+    }
+
+    .fa-sort-down {
+        margin-bottom: 8px;
+    }
+
+    .fa-sort-up {
+        margin-top: 10px;
+    }
+
+    .cinco p {
+        width: 573px;
+        height: 75px;
+        font-size: 14px
+    }
+
+    .cinco h3 {
+        font-size: 13px;
+        margin-left: 25px;
+    }
+
+    .ayudar-proyecto {
+        height: 352px;
+    }
+
+    .ayudar-proyecto>.capa>h2 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 17px;
+    }
+
+    .ayudar-proyecto>.capa>p {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .ayudar-proyecto>.capa>.button {
+        width: 211px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1180px) {
     main {
         background-color: rgba(0, 2, 38, 1);
     }

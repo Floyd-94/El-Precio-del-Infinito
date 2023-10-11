@@ -827,7 +827,7 @@ main {
 
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1180px) {
     main {
         background-color: rgba(0, 2, 38, 1);
     }
