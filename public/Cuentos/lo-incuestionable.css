@@ -1,6 +1,5 @@
 main {
     width: 100%;
-    height: 100%;
     position: relative;
     background-color: rgba(0, 2, 38, 1);
 }
@@ -13,6 +12,8 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 1;
+    margin-top: 50px;
 }
 
 .titulo>h1 {
@@ -38,14 +39,10 @@ main p {
     font-size: 13px;
     line-height: 19px;
     padding: 20px;
-    padding-top: 105px;
+    padding-top: 120px;
 }
 
 @media (min-width: 360px) {
-
-    main {
-        margin-bottom: 30px;
-    }
 
     .titulo {
         height: 80px;
@@ -64,16 +61,12 @@ main p {
     main p {
         font-size: 14px;
         padding: 22.5px;
-        padding-top: 105px;
+        padding-top: 130px;
         line-height: 21px;
     }
 }
 
 @media (min-width: 410px) {
-
-    main {
-        margin-bottom: 40px;
-    }
 
     .titulo {
         height: 95px;
@@ -92,16 +85,13 @@ main p {
     main p {
         font-size: 16px;
         padding: 25px;
-        padding-top: 105px;
+        padding-top: 140px;
         line-height: 23px;
     }
 }
 
 @media (min-width: 460px) {
 
-    main {
-        margin-bottom: 45px;
-    }
 
     .titulo {
         height: 110px;
@@ -120,16 +110,13 @@ main p {
     main p {
         font-size: 18px;
         padding: 30px;
-        padding-top: 130px;
+        padding-top: 160px;
         line-height: 25px;
     }
 }
 
 @media (min-width: 510px) {
 
-    main {
-        margin: 55px;
-    }
 
     .titulo {
         height: 120px;
@@ -148,16 +135,12 @@ main p {
     main p {
         font-size: 19.5px;
         padding: 40px;
-        padding-top: 130px;
+        padding-top: 190px;
         line-height: 27px;
     }
 }
 
 @media (min-width: 560px) {
-
-    main {
-        margin-bottom: 55px;
-    }
 
     .titulo {
         height: 130px;
@@ -176,16 +159,13 @@ main p {
     main p {
         font-size: 20px;
         padding: 60px;
-        padding-top: 140px;
+        padding-top: 190px;
         line-height: 27px;
     }
 }
 
 @media (min-width: 610px) {
 
-    main {
-        margin-bottom: 65px;
-    }
 
     .titulo {
         height: 123px;
@@ -204,16 +184,13 @@ main p {
     main p {
         font-size: 22px;
         padding: 75px;
-        padding-top: 150px;
+        padding-top: 220px;
         line-height: 28px;
     }
 }
 
 @media (min-width: 660px) {
 
-    main {
-        margin-bottom: 70px;
-    }
 
     .titulo {
         height: 133px;
@@ -232,16 +209,13 @@ main p {
     main p {
         font-size: 22px;
         padding: 75px;
-        padding-top: 150px;
+        padding-top: 200px;
         line-height: 28px;
     }
 }
 
 @media (min-width: 1000px) {
 
-    main {
-        margin-bottom: 70px;
-    }
 
     .titulo {
         height: 133px;
@@ -258,9 +232,13 @@ main p {
     }
 
     main p {
+        width: 1419px;
         font-size: 22px;
-        padding: 75px;
-        padding-top: 150px;
+        padding: 50px;
+        padding-top: 200px;
+        margin: 0 auto ;       
         line-height: 28px;
+        background-color: rgba(0, 2, 38, 1);
+
     }
 }

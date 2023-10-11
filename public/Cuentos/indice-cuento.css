@@ -4,6 +4,7 @@ main {
     position: relative;
     width: 100%;
     background-color: rgba(0, 2, 38, 1);
+    margin-top: 50px;
 }
 
 .titulo {
